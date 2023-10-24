@@ -4,7 +4,6 @@ namespace ASP.NETCORE_PROJECT.Models
 {
     public class Cart
     {
-
         public Guid Id { get; set; }
         public string Name { get; set; }       
         public double Price { get; set; }

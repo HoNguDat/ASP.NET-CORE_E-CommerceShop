@@ -6,10 +6,10 @@ namespace ASP.NETCORE_PROJECT.Models
     public class Brand
     {
         [Key]
-        public Guid brand_id { get; set; }
-        [Required(ErrorMessage = "Tên hãng sản xuất không được bỏ trống !")]
-        public string brand_name { get; set; }
-        public string? brand_image { get; set; }
+        public Guid Id { get; set; }
+        [Required(ErrorMessage = "Please input brand name !")]
+        public string Name { get; set; }
+        public string? Image { get; set; }
         public virtual ICollection<Product> Products { get; set; }
         [NotMapped]
         public IFormFile? BrandImage { get; set; }

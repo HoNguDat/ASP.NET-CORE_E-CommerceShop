@@ -27,12 +27,12 @@
                 <tbody class="align-middle">
                     @foreach (var item in Model)
                     {
-                        <tr data-id="@item.orderdetail_productid" class="product-row">
-                            <td class="align-middle"><img src="~/Admin/assets/images/product/@item.Product.product_image" width="150px" height="150px" /></td>
+                        <tr data-id="@item.ProductId" class="product-row">
+                            <td class="align-middle"><img src="~/Admin/assets/images/product/@item.Product.Image" width="150px" height="150px" /></td>
                             @* <td class="align-middle">@string.Format("{0:#,0}",item.order_totalbill) VNĐ</td>*@
-                            <td class="align-middle">@item.Product.product_name</td>
-                            <td class="align-middle">@string.Format("{0:#,0}",item.Product.product_price) VNĐ</td>
-                            <td class="align-middle">@item.orderdetail_quantity</td>
+                            <td class="align-middle">@item.Product.Name</td>
+                            <td class="align-middle">@string.Format("{0:#,0}",item.Product.Price) VNĐ</td>
+                            <td class="align-middle">@item.Quantity</td>
                             @* <td class="align-middle" style="color:red">@item.order_status</td>
                         <td class="align-middle"><a class="btn btn-info" asp-action="OrderDetailUser" asp-controller="Order">Order details</a></td>*@
                         </tr>

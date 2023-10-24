@@ -73,25 +73,25 @@
                             @foreach (var item in Model)
                             {
                                 <tr>
-                                    <td class="text-center text-muted">@item.typeLaptop_name</td>
+                                    <td class="text-center text-muted">@item.Name</td>
                                     <td>
                                         <div class="widget-content p-0">
                                             <div class="widget-content-wrapper">
                                                 <div class="widget-content-left flex2">
-                                                    <img src="~/Admin/assets/images/typelaptop/@item.typeLaptop_image" width="70px" height="70px">
+                                                    <img src="~/Admin/assets/images/typelaptop/@item.Image" width="70px" height="70px">
                                                 </div>
                                             </div>
                                         </div>
                                     </td>
 
                                     <td class="text-center">
-                                        <a asp-action="Edit" asp-controller="TypeLaptop" asp-route-id="@item.typeLaptop_id" title="Edit"
+                                        <a asp-action="Edit" asp-controller="TypeLaptop" asp-route-id="@item.Id" title="Edit"
                                            data-placement="bottom" class="btn btn-outline-warning border-0 btn-sm">
                                             <span class="btn-icon-wrapper opacity-8">
                                                 <i class="fa fa-edit fa-w-20"></i>
                                             </span>
                                         </a>
-                                        <form class="d-inline" asp-action="Delete" asp-controller="TypeLaptop" asp-route-id="@item.typeLaptop_id">
+                                        <form class="d-inline" asp-action="Delete" asp-controller="TypeLaptop" asp-route-id="@item.Id">
                                             <button class="btn btn-hover-shine btn-outline-danger border-0 btn-sm"
                                                     type="submit" data-toggle="tooltip" title="Delete"
                                                     data-placement="bottom"

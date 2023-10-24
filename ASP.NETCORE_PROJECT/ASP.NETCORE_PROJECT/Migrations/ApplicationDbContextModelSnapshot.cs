@@ -97,236 +97,239 @@ namespace ASP.NETCORE_PROJECT.Migrations
 
             modelBuilder.Entity("ASP.NETCORE_PROJECT.Models.Brand", b =>
                 {
-                    b.Property<Guid>("brand_id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("brand_image")
+                    b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("brand_name")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("brand_id");
+                    b.HasKey("Id");
 
                     b.ToTable("Brand");
                 });
 
             modelBuilder.Entity("ASP.NETCORE_PROJECT.Models.Category", b =>
                 {
-                    b.Property<Guid>("cate_id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("cate_image")
+                    b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("cate_name")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("cate_id");
+                    b.HasKey("Id");
 
                     b.ToTable("Category");
                 });
 
             modelBuilder.Entity("ASP.NETCORE_PROJECT.Models.Comment", b =>
                 {
-                    b.Property<Guid>("comment_id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("comment_content")
+                    b.Property<string>("Content")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("comment_createdon")
+                    b.Property<DateTime>("CreateAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid?>("comment_productid")
+                    b.Property<Guid?>("ProductId")
+                        .IsRequired()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("comment_userid")
+                    b.Property<string>("UserId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("comment_id");
+                    b.HasKey("Id");
 
-                    b.HasIndex("comment_productid");
+                    b.HasIndex("ProductId");
 
-                    b.HasIndex("comment_userid");
+                    b.HasIndex("UserId");
 
                     b.ToTable("Comment");
                 });
 
             modelBuilder.Entity("ASP.NETCORE_PROJECT.Models.Order", b =>
                 {
-                    b.Property<Guid>("order_id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("order_UserId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime>("order_createat")
+                    b.Property<DateTime>("CreateAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("order_note")
+                    b.Property<string>("Note")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("order_status")
+                    b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double>("order_totalbill")
+                    b.Property<double>("TotalBill")
                         .HasColumnType("float");
 
-                    b.HasKey("order_id");
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
 
-                    b.HasIndex("order_UserId");
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Order");
                 });
 
             modelBuilder.Entity("ASP.NETCORE_PROJECT.Models.OrderDetail", b =>
                 {
-                    b.Property<Guid>("orderdetail_id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("orderdetail_orderid")
+                    b.Property<Guid>("OrderId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("orderdetail_productid")
+                    b.Property<Guid>("ProductId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<double>("orderdetail_quantity")
+                    b.Property<double>("Quantity")
                         .HasColumnType("float");
 
-                    b.HasKey("orderdetail_id");
+                    b.HasKey("Id");
 
-                    b.HasIndex("orderdetail_orderid");
+                    b.HasIndex("OrderId");
 
-                    b.HasIndex("orderdetail_productid");
+                    b.HasIndex("ProductId");
 
                     b.ToTable("OrderDetail");
                 });
 
             modelBuilder.Entity("ASP.NETCORE_PROJECT.Models.Product", b =>
                 {
-                    b.Property<Guid>("product_id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("product_backcamera")
+                    b.Property<string>("BackCamera")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("product_battery")
+                    b.Property<string>("Battery")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid?>("product_brandid")
+                    b.Property<Guid?>("BrandId")
+                        .IsRequired()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid?>("product_cateid")
+                    b.Property<Guid?>("CategoryId")
+                        .IsRequired()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("product_color")
+                    b.Property<string>("Color")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("product_cpu")
+                    b.Property<string>("Cpu")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("product_description")
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("product_face")
+                    b.Property<string>("Face")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("product_feature")
+                    b.Property<string>("Feature")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("product_frontcamera")
+                    b.Property<string>("FrontCamera")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("product_graphiccard")
+                    b.Property<string>("GraphicCard")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("product_image")
+                    b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("product_name")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("product_operatingsystem")
+                    b.Property<string>("OperatingSystem")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("product_origin")
+                    b.Property<string>("Origin")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("product_price")
+                    b.Property<int>("Price")
                         .HasColumnType("int");
 
-                    b.Property<int>("product_quantity")
+                    b.Property<int>("Quantity")
                         .HasColumnType("int");
 
-                    b.Property<string>("product_ram")
+                    b.Property<string>("Ram")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("product_screen")
+                    b.Property<string>("Screen")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("product_sim")
+                    b.Property<string>("Sim")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("product_size_volume")
+                    b.Property<string>("SizeVolume")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("product_storage")
+                    b.Property<string>("Storage")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid?>("product_typeid")
+                    b.Property<Guid?>("TypeId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("product_yearofmanufacturer")
+                    b.Property<int>("YearOfManufacturer")
                         .HasColumnType("int");
 
-                    b.HasKey("product_id");
+                    b.HasKey("Id");
 
-                    b.HasIndex("product_brandid");
+                    b.HasIndex("BrandId");
 
-                    b.HasIndex("product_cateid");
+                    b.HasIndex("CategoryId");
 
-                    b.HasIndex("product_typeid");
+                    b.HasIndex("TypeId");
 
                     b.ToTable("Product");
                 });
 
             modelBuilder.Entity("ASP.NETCORE_PROJECT.Models.TypeLaptop", b =>
                 {
-                    b.Property<Guid>("typeLaptop_id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("typeLaptop_image")
+                    b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("typeLaptop_name")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("typeLaptop_id");
+                    b.HasKey("Id");
 
                     b.ToTable("TypeLaptop");
                 });
@@ -472,11 +475,13 @@ namespace ASP.NETCORE_PROJECT.Migrations
                 {
                     b.HasOne("ASP.NETCORE_PROJECT.Models.Product", "Product")
                         .WithMany("Comments")
-                        .HasForeignKey("comment_productid");
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("ASP.NETCORE_PROJECT.Areas.Identity.Data.ApplicationUser", "ApplicationUser")
                         .WithMany("Comments")
-                        .HasForeignKey("comment_userid");
+                        .HasForeignKey("UserId");
 
                     b.Navigation("ApplicationUser");
 
@@ -487,7 +492,7 @@ namespace ASP.NETCORE_PROJECT.Migrations
                 {
                     b.HasOne("ASP.NETCORE_PROJECT.Areas.Identity.Data.ApplicationUser", "ApplicationUser")
                         .WithMany("Orders")
-                        .HasForeignKey("order_UserId");
+                        .HasForeignKey("UserId");
 
                     b.Navigation("ApplicationUser");
                 });
@@ -496,13 +501,13 @@ namespace ASP.NETCORE_PROJECT.Migrations
                 {
                     b.HasOne("ASP.NETCORE_PROJECT.Models.Order", "Order")
                         .WithMany("OrderDetails")
-                        .HasForeignKey("orderdetail_orderid")
+                        .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("ASP.NETCORE_PROJECT.Models.Product", "Product")
                         .WithMany("OrderDetails")
-                        .HasForeignKey("orderdetail_productid")
+                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -513,23 +518,27 @@ namespace ASP.NETCORE_PROJECT.Migrations
 
             modelBuilder.Entity("ASP.NETCORE_PROJECT.Models.Product", b =>
                 {
-                    b.HasOne("ASP.NETCORE_PROJECT.Models.Brand", "brand")
+                    b.HasOne("ASP.NETCORE_PROJECT.Models.Brand", "Brand")
                         .WithMany("Products")
-                        .HasForeignKey("product_brandid");
+                        .HasForeignKey("BrandId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.HasOne("ASP.NETCORE_PROJECT.Models.Category", "category")
+                    b.HasOne("ASP.NETCORE_PROJECT.Models.Category", "Category")
                         .WithMany("Products")
-                        .HasForeignKey("product_cateid");
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.HasOne("ASP.NETCORE_PROJECT.Models.TypeLaptop", "typelaptop")
+                    b.HasOne("ASP.NETCORE_PROJECT.Models.TypeLaptop", "TypeLaptop")
                         .WithMany("Products")
-                        .HasForeignKey("product_typeid");
+                        .HasForeignKey("TypeId");
 
-                    b.Navigation("brand");
+                    b.Navigation("Brand");
 
-                    b.Navigation("category");
+                    b.Navigation("Category");
 
-                    b.Navigation("typelaptop");
+                    b.Navigation("TypeLaptop");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

@@ -6,12 +6,12 @@ namespace ASP.NETCORE_PROJECT.Models
     public class Order
     {
         [Key]
-        public Guid order_id { get; set; }
-        public string? order_note { get; set; }
-        public double order_totalbill { get; set; }
-        public string order_status { get; set; }
-        public DateTime order_createat { get; set; }
-        public string? order_UserId { get; set; }
+        public Guid Id { get; set; }
+        public string? Note { get; set; }
+        public double TotalBill { get; set; }
+        public string Status { get; set; }
+        public DateTime CreateAt { get; set; }
+        public string? UserId { get; set; }
         public virtual ApplicationUser ApplicationUser { get; set; }
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
     }

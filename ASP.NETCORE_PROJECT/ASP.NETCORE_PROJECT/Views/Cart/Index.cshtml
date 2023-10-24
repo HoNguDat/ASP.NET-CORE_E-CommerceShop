@@ -128,44 +128,4 @@
 @section Scripts{
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    @*<script type="text/javascript">
-        $(function () {
-            $("#removecart").click(function () {
-                var lineid = $("#product_id").val();
-                alert(lineid);
-                //lấy id sản phẩm
-                $.ajax({
-                    url: "/Cart/Remove",
-                    data: {
-                        id: lineid,
-                        type: "ajax"
-                    },
-                    success: function (data) {
-                        $("#product-" + lineid).remove();
-                    },
-                    error: function () {
-                        alert("Lỗi trong khi thêm vào giỏ hàng!");
-                    }
-                });
-                return false;
-            });
-        });
-    </script>*@
-    @*<script>
-        function removeFromCart(id) {
-            $.ajax({
-                url: '@Url.Action("Remove", "Cart")',
-                type: 'POST',
-                data: { id: id },
-                success: function (response) {
-                    // Xử lý thành công, ví dụ: cập nhật giao diện người dùng
-                    alert("Sản phẩm đã được xóa khỏi giỏ hàng!");
-                },
-                error: function (xhr, status, error) {
-                    // Xử lý lỗi, ví dụ: hiển thị thông báo lỗi
-                    alert(error);
-                }
-            });
-        }
-    </script>*@
 }

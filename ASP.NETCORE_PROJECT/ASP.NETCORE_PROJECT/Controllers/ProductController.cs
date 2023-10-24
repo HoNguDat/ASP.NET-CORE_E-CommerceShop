@@ -16,7 +16,6 @@ namespace ASP.NETCORE_PROJECT.Controllers
     [Authorize(Roles = "Admin,Manager")]
     public class ProductController : Controller
     {
-
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _webHostEnvironment;
 
@@ -26,38 +25,29 @@ namespace ASP.NETCORE_PROJECT.Controllers
             _webHostEnvironment = webHostEnvironment;
         }
 
-        // GET: Product
-        //public async Task<IActionResult> Index()
-        //{
-        //    var applicationDbContext = _context.Product.Include(p => p.brand).Include(p => p.category).Include(p => p.typelaptop);
-        //    return View(await applicationDbContext.ToListAsync());
-        //}
         public async Task<IActionResult> ListProductPhone()
         {
-            var applicationDbContext = _context.Product.Include(p => p.brand).Include(p => p.category).Include(p => p.typelaptop);
+            var applicationDbContext = _context.Product.Include(p => p.Brand).Include(p => p.Category).Include(p => p.TypeLaptop);
 
-            return View(await applicationDbContext.Where(x => x.category.cate_name == "Điện thoại").ToListAsync());
+            return View(await applicationDbContext.Where(x => x.Category.Name == "Điện thoại").ToListAsync());
 
         }
+
         public async Task<IActionResult> ListProductLaptop()
         {
-            var applicationDbContext = _context.Product.Include(p => p.brand).Include(p => p.category).Include(p => p.typelaptop);
+            var applicationDbContext = _context.Product.Include(p => p.Brand).Include(p => p.Category).Include(p => p.TypeLaptop);
 
-            return View(await applicationDbContext.Where(x => x.category.cate_name == "Laptop").ToListAsync());
+            return View(await applicationDbContext.Where(x => x.Category.Name == "Laptop").ToListAsync());
 
         }
 
-        //ProductPhone/Create
         public IActionResult CreateProductPhone()
         {
-            ViewData["product_brandid"] = new SelectList(_context.Brand, "brand_id", "brand_name");
-            ViewData["product_cateid"] = new SelectList(_context.Category, "cate_id", "cate_name");
+            ViewData["BrandId"] = new SelectList(_context.Brand, "Id", "Name");
+            ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name");
             return View();
         }
 
-        // POST: Product/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateProductPhone(Product product)
@@ -65,8 +55,8 @@ namespace ASP.NETCORE_PROJECT.Controllers
             try
             {
                 string uniqueFileName = UploadedFile(product);
-                product.product_id = Guid.NewGuid();
-                product.product_image = uniqueFileName;
+                product.Id = Guid.NewGuid();
+                product.Image = uniqueFileName;
                 _context.Add(product);
                 await _context.SaveChangesAsync();
                 TempData["SuccessMessage"] = "Create successful product !";
@@ -75,15 +65,13 @@ namespace ASP.NETCORE_PROJECT.Controllers
 
             catch (Exception)
             {
-                ViewData["product_brandid"] = new SelectList(_context.Brand, "brand_id", "brand_name", product.product_brandid);
-                ViewData["product_cateid"] = new SelectList(_context.Category, "cate_id", "cate_name", product.product_cateid);
-                ViewData["product_typeid"] = new SelectList(_context.TypeLaptop, "typeLaptop_id", "typeLaptop_name", product.product_typeid);
+                ViewData["BrandId"] = new SelectList(_context.Brand, "Id", "Name", product.BrandId);
+                ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name", product.CategoryId);
+                ViewData["TypeId"] = new SelectList(_context.TypeLaptop, "Id", "Name", product.TypeId);
                 return View(product);
             }
-
-
         }
-        // GET: Product/Edit/5
+
         public async Task<IActionResult> EditPhoneProducts(Guid? id)
         {
             if (id == null || _context.Product == null)
@@ -96,23 +84,20 @@ namespace ASP.NETCORE_PROJECT.Controllers
             {
                 return View("/Views/Shared/ErrorAdmin.cshtml");
             }
-            ViewData["product_brandid"] = new SelectList(_context.Brand, "brand_id", "brand_name", product.product_brandid);
-            ViewData["product_cateid"] = new SelectList(_context.Category, "cate_id", "cate_name", product.product_cateid);
+            ViewData["BrandId"] = new SelectList(_context.Brand, "Id", "Name", product.BrandId);
+            ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name", product.CategoryId);
 
             return View(product);
         }
-        // POST: Product/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> EditPhoneProducts(Guid id, Product product)
         {
-            if (id != product.product_id)
+            if (id != product.Id)
             {
                 return View("/Views/Shared/ErrorAdmin.cshtml");
             }
-
             else
             {
                 try
@@ -121,9 +106,9 @@ namespace ASP.NETCORE_PROJECT.Controllers
                     string uniqueFileName = string.Empty;
                     if (product.ProductImage != null)
                     {
-                        if (data.product_image != null)
+                        if (data.Image != null)
                         {
-                            string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "Admin/assets/images/product", data.product_image);
+                            string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "Admin/assets/images/product", data.Image);
                             if (System.IO.File.Exists(filePath))
                             {
                                 System.IO.File.Delete(filePath);
@@ -131,30 +116,29 @@ namespace ASP.NETCORE_PROJECT.Controllers
                         }
                         uniqueFileName = UploadedFile(product);
                     }
-                    data.product_name = product.product_name;
-                    data.product_cpu = product.product_cpu;
-                    data.product_screen = product.product_screen;
-                    data.product_frontcamera = product.product_frontcamera;
-                    data.product_backcamera = product.product_backcamera;
-                    data.product_sim = product.product_sim;
-                    data.product_ram = product.product_ram;
-                    data.product_storage = product.product_storage;
-                    data.product_operatingsystem = product.product_operatingsystem;
-                    data.product_feature = product.product_feature;
-                    data.product_origin = product.product_origin;
-                    data.product_size_volume = product.product_size_volume;
-                    data.product_battery = product.product_battery;
-                    data.product_quantity = product.product_quantity;
-                    data.product_yearofmanufacturer = product.product_yearofmanufacturer;
-                    data.product_price = product.product_price;
-                    data.product_description = product.product_description;
-                    data.product_color = product.product_color;
-                    data.product_cateid = product.product_cateid;
-                    data.product_brandid = product.product_brandid;
+                    data.Name = product.Name;
+                    data.Cpu = product.Cpu;
+                    data.FrontCamera = product.FrontCamera;
+                    data.BackCamera = product.BackCamera;
+                    data.Sim = product.Sim;
+                    data.Ram = product.Ram;
+                    data.Storage = product.Storage;
+                    data.OperatingSystem = product.OperatingSystem;
+                    data.Feature = product.Feature;
+                    data.Origin = product.Origin;
+                    data.SizeVolume = product.SizeVolume;
+                    data.Battery = product.Battery;
+                    data.Quantity = product.Quantity;
+                    data.YearOfManufacturer = product.YearOfManufacturer;
+                    data.Price = product.Price;
+                    data.Description = product.Description;
+                    data.Color = product.Color;
+                    data.CategoryId = product.CategoryId;
+                    data.BrandId = product.BrandId;
 
                     if (product.ProductImage != null)
                     {
-                        data.product_image = uniqueFileName;
+                        data.Image = uniqueFileName;
                     }
                     _context.Update(data);
                     await _context.SaveChangesAsync();
@@ -164,10 +148,10 @@ namespace ASP.NETCORE_PROJECT.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    ViewData["product_brandid"] = new SelectList(_context.Brand, "brand_id", "brand_name", product.product_brandid);
-                    ViewData["product_cateid"] = new SelectList(_context.Category, "cate_id", "cate_name", product.product_cateid);
-                    ViewData["product_typeid"] = new SelectList(_context.TypeLaptop, "typeLaptop_id", "typeLaptop_name", product.product_typeid);
-                    if (!ProductExists(product.product_id))
+                    ViewData["BrandId"] = new SelectList(_context.Brand, "Id", "Name", product.BrandId);
+                    ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name", product.CategoryId);
+                    ViewData["TypeId"] = new SelectList(_context.TypeLaptop, "Id", "Name", product.TypeId);
+                    if (!ProductExists(product.Id))
                     {
                         return View("/Views/Shared/ErrorAdmin.cshtml");
                     }
@@ -177,8 +161,8 @@ namespace ASP.NETCORE_PROJECT.Controllers
                     }
                 }
             }
-
         }
+
         private string UploadedFile(Product model)
         {
             string uniqueFileName = string.Empty;
@@ -202,28 +186,25 @@ namespace ASP.NETCORE_PROJECT.Controllers
             }
 
             var product = await _context.Product
-                .Include(p => p.brand)
-                .Include(p => p.category)
-                .Include(p => p.typelaptop)
-                .FirstOrDefaultAsync(m => m.product_id == id);
+                .Include(p => p.Brand)
+                .Include(p => p.Category)
+                .Include(p => p.TypeLaptop)
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (product == null)
             {
                 return View("/Views/Shared/ErrorAdmin.cshtml"); 
             }
-
             return View(product);
         }
+
         public IActionResult CreateProductLaptop()
         {
-            ViewData["product_brandid"] = new SelectList(_context.Brand, "brand_id", "brand_name");
-            ViewData["product_cateid"] = new SelectList(_context.Category, "cate_id", "cate_name");
-            ViewData["product_typeid"] = new SelectList(_context.TypeLaptop, "typeLaptop_id", "typeLaptop_name");
+            ViewData["BrandId"] = new SelectList(_context.Brand, "Id", "Name");
+            ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name");
+            ViewData["TypeId"] = new SelectList(_context.TypeLaptop, "Id", "Name");
             return View();
         }
 
-        // POST: Product/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateProductLaptop(Product product)
@@ -231,8 +212,8 @@ namespace ASP.NETCORE_PROJECT.Controllers
             try
             {
                 string uniqueFileName = UploadedFile(product);
-                product.product_id = Guid.NewGuid();
-                product.product_image = uniqueFileName;
+                product.Id = Guid.NewGuid();
+                product.Image = uniqueFileName;
                 _context.Add(product);
                 await _context.SaveChangesAsync();
                 TempData["SuccessMessage"] = "Create successful product !";
@@ -240,14 +221,13 @@ namespace ASP.NETCORE_PROJECT.Controllers
             }
             catch (Exception)
             {
-                ViewData["product_brandid"] = new SelectList(_context.Brand, "brand_id", "brand_name", product.product_brandid);
-                ViewData["product_cateid"] = new SelectList(_context.Category, "cate_id", "cate_name", product.product_cateid);
-                ViewData["product_typeid"] = new SelectList(_context.TypeLaptop, "typeLaptop_id", "typeLaptop_name", product.product_typeid);
+                ViewData["BrandId"] = new SelectList(_context.Brand, "Id", "Name", product.BrandId);
+                ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name", product.CategoryId);
+                ViewData["TypeId"] = new SelectList(_context.TypeLaptop, "Id", "Name", product.TypeId);
                 return View(product);
             }
-
-
         }
+
         public async Task<IActionResult> DetailsProductLaptop(Guid? id)
         {
             if (id == null || _context.Product == null)
@@ -256,17 +236,17 @@ namespace ASP.NETCORE_PROJECT.Controllers
             }
 
             var product = await _context.Product
-                .Include(p => p.brand)
-                .Include(p => p.category)
-                .Include(p => p.typelaptop)
-                .FirstOrDefaultAsync(m => m.product_id == id);
+                .Include(p => p.Brand)
+                .Include(p => p.Category)
+                .Include(p => p.TypeId)
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (product == null)
             {
                 return View("/Views/Shared/ErrorAdmin.cshtml");
             }
-
             return View(product);
         }
+
         public async Task<IActionResult> EditLaptopProducts(Guid? id)
         {
             if (id == null || _context.Product == null)
@@ -279,20 +259,18 @@ namespace ASP.NETCORE_PROJECT.Controllers
             {
                 return View("/Views/Shared/ErrorAdmin.cshtml");
             }
-            ViewData["product_brandid"] = new SelectList(_context.Brand, "brand_id", "brand_name", product.product_brandid);
-            ViewData["product_cateid"] = new SelectList(_context.Category, "cate_id", "cate_name", product.product_cateid);
-            ViewData["product_typeid"] = new SelectList(_context.TypeLaptop, "typeLaptop_id", "typeLaptop_name", product.product_typeid);
+            ViewData["BrandId"] = new SelectList(_context.Brand, "Id", "Name", product.BrandId);
+            ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name", product.CategoryId);
+            ViewData["TypeId"] = new SelectList(_context.TypeLaptop, "Id", "Name", product.TypeId);
 
             return View(product);
         }
-        // POST: Product/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> EditLaptopProducts(Guid id, Product product)
         {
-            if (id != product.product_id)
+            if (id != product.Id)
             {
                  return View("/Views/Shared/ErrorAdmin.cshtml");
             }
@@ -304,9 +282,9 @@ namespace ASP.NETCORE_PROJECT.Controllers
                     string uniqueFileName = string.Empty;
                     if (product.ProductImage != null)
                     {
-                        if (data.product_image != null)
+                        if (data.Id != null)
                         {
-                            string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "Admin/assets/images/product", data.product_image);
+                            string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "Admin/assets/images/product", data.Image);
                             if (System.IO.File.Exists(filePath))
                             {
                                 System.IO.File.Delete(filePath);
@@ -314,27 +292,28 @@ namespace ASP.NETCORE_PROJECT.Controllers
                         }
                         uniqueFileName = UploadedFile(product);
                     }
-                    data.product_name = product.product_name;
-                    data.product_cpu = product.product_cpu;
-                    data.product_screen = product.product_screen;                                  
-                    data.product_ram = product.product_ram;
-                    data.product_storage = product.product_storage;
-                    data.product_operatingsystem = product.product_operatingsystem;
-                    data.product_feature = product.product_feature;
-                    data.product_origin = product.product_origin;
-                    data.product_size_volume = product.product_size_volume;
-                    data.product_battery = product.product_battery;
-                    data.product_quantity = product.product_quantity;
-                    data.product_yearofmanufacturer = product.product_yearofmanufacturer;
-                    data.product_price = product.product_price;
-                    data.product_description = product.product_description;
-                    data.product_color = product.product_color;
-                    data.product_cateid = product.product_cateid;
-                    data.product_brandid = product.product_brandid;
-                    data.product_typeid= product.product_typeid;
+                    data.Name = product.Name;
+                    data.Cpu = product.Cpu;
+                    data.FrontCamera = product.FrontCamera;
+                    data.BackCamera = product.BackCamera;
+                    data.Sim = product.Sim;
+                    data.Ram = product.Ram;
+                    data.Storage = product.Storage;
+                    data.OperatingSystem = product.OperatingSystem;
+                    data.Feature = product.Feature;
+                    data.Origin = product.Origin;
+                    data.SizeVolume = product.SizeVolume;
+                    data.Battery = product.Battery;
+                    data.Quantity = product.Quantity;
+                    data.YearOfManufacturer = product.YearOfManufacturer;
+                    data.Price = product.Price;
+                    data.Description = product.Description;
+                    data.Color = product.Color;
+                    data.CategoryId = product.CategoryId;
+                    data.BrandId = product.BrandId;
                     if (product.ProductImage != null)
                     {
-                        data.product_image = uniqueFileName;
+                        data.Image = uniqueFileName;
                     }
                     _context.Update(data);
                     await _context.SaveChangesAsync();
@@ -344,10 +323,10 @@ namespace ASP.NETCORE_PROJECT.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    ViewData["product_brandid"] = new SelectList(_context.Brand, "brand_id", "brand_name", product.product_brandid);
-                    ViewData["product_cateid"] = new SelectList(_context.Category, "cate_id", "cate_name", product.product_cateid);
-                    ViewData["product_typeid"] = new SelectList(_context.TypeLaptop, "typeLaptop_id", "typeLaptop_name", product.product_typeid);
-                    if (!ProductExists(product.product_id))
+                    ViewData["BrandId"] = new SelectList(_context.Brand, "Id", "Name", product.BrandId);
+                    ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name", product.CategoryId);
+                    ViewData["TypeId"] = new SelectList(_context.TypeLaptop, "Id", "Name", product.TypeId);
+                    if (!ProductExists(product.Id))
                     {
                         return NotFound();
                     }
@@ -359,27 +338,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
             }
 
         }
-
-        // GET: Product/Delete/5
-        //public async Task<IActionResult> Delete(Guid? id)
-        //{
-        //    if (id == null || _context.Product == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var product = await _context.Product
-        //        .Include(p => p.brand)
-        //        .Include(p => p.category)
-        //        .Include(p => p.typelaptop)
-        //        .FirstOrDefaultAsync(m => m.product_id == id);
-        //    if (product == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return View(product);
-        //}      
+       
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeletePhoneProduct(Guid id)
@@ -392,7 +351,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
             if (product != null)
             {
                 string deleteFromFolder = Path.Combine(_webHostEnvironment.WebRootPath, "Admin/assets/images/product");
-                string currentImage = Path.Combine(Directory.GetCurrentDirectory(), deleteFromFolder, product.product_image);
+                string currentImage = Path.Combine(Directory.GetCurrentDirectory(), deleteFromFolder, product.Image);
                 if (currentImage != null)
                 {
                     if (System.IO.File.Exists(currentImage))
@@ -402,13 +361,11 @@ namespace ASP.NETCORE_PROJECT.Controllers
                 }
                 _context.Product.Remove(product);
                 await _context.SaveChangesAsync();
-                TempData["SuccessMessage"] = "Delete successful product !";
-              
+                TempData["SuccessMessage"] = "Delete successful product !";        
             }
-
             return RedirectToAction(nameof(ListProductPhone));
-
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteLaptopProduct(Guid id)
@@ -421,7 +378,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
             if (product != null)
             {
                 string deleteFromFolder = Path.Combine(_webHostEnvironment.WebRootPath, "Admin/assets/images/product");
-                string currentImage = Path.Combine(Directory.GetCurrentDirectory(), deleteFromFolder, product.product_image);
+                string currentImage = Path.Combine(Directory.GetCurrentDirectory(), deleteFromFolder, product.Image);
                 if (currentImage != null)
                 {
                     if (System.IO.File.Exists(currentImage))
@@ -432,12 +389,10 @@ namespace ASP.NETCORE_PROJECT.Controllers
                 _context.Product.Remove(product);
                 await _context.SaveChangesAsync();
                 TempData["SuccessMessage"] = "Delete successful product !";
-
             }
-
             return RedirectToAction(nameof(ListProductPhone));
-
         }
+
         [HttpPost]
         public async Task<IActionResult> SearchProductsPhone(string search)
         {
@@ -445,9 +400,10 @@ namespace ASP.NETCORE_PROJECT.Controllers
             {
                 return View("/Views/Shared/ErrorAdmin.cshtml");
             }
-            var model =await _context.Product.Include(p => p.brand).Include(p => p.category).Include(p => p.typelaptop).Where(x=>x.category.cate_name=="Điện thoại"&&x.product_name.Contains(search)).ToListAsync();
+            var model =await _context.Product.Include(p => p.Brand).Include(p => p.Category).Include(p => p.TypeLaptop).Where(x=>x.Category.Name=="Điện thoại"&&x.Name.Contains(search)).ToListAsync();
             return View(model);
         }
+
         [HttpPost]
         public async Task<IActionResult> SearchProductsLaptop(string search)
         {
@@ -455,12 +411,13 @@ namespace ASP.NETCORE_PROJECT.Controllers
             {
                 return View("/Views/Shared/ErrorAdmin.cshtml");
             }
-            var model = await _context.Product.Include(p => p.brand).Include(p => p.category).Include(p => p.typelaptop).Where(x => x.category.cate_name == "Laptop" && x.product_name.Contains(search)).ToListAsync();
+            var model = await _context.Product.Include(p => p.Brand).Include(p => p.Category).Include(p => p.TypeLaptop).Where(x => x.Category.Name == "Laptop" && x.Name.Contains(search)).ToListAsync();
             return View(model);
         }
+
         private bool ProductExists(Guid id)
         {
-            return (_context.Product?.Any(e => e.product_id == id)).GetValueOrDefault();
+            return (_context.Product?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

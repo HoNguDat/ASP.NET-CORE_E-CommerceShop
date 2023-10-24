@@ -86,44 +86,13 @@
                         <tbody>
 
                             @foreach (var item in Model)
-                            {                         
-                                                          
-
-                                @*<tr>
-                                    <td class="text-center text-muted">@userRole.Id - @userRole.RoleName</td>
-                                </tr>*@
-                                
+                            {                                                   
                                 <tr>
                                     <td class="text-center text-muted">@item.UserName</td>
                                     <td class="text-center text-muted">@item.FullName</td>
                                     <td class="text-center text-muted">@item.Email</td>
                                     <td class="text-center text-muted">@item.Address</td>
-                                    <td class="text-center text-muted">@item.PhoneNumber</td>
-                                   @* <ul>
-                                        @foreach(var role in item.Roles)
-                                        {
-                                            <li>@role</li>
-                                        }
-                                    </ul>*@
-
-                                    @*<td class="text-center">
-                                        <a asp-action="Edit" asp-controller="Brand" asp-route-id="@item.Id" title="Edit"
-                                           data-placement="bottom" class="btn btn-outline-warning border-0 btn-sm">
-                                            <span class="btn-icon-wrapper opacity-8">
-                                                <i class="fa fa-edit fa-w-20"></i>
-                                            </span>
-                                        </a>
-                                        <form class="d-inline" asp-action="Delete" asp-controller="Brand" asp-route-id="@item.Id">
-                                            <button class="btn btn-hover-shine btn-outline-danger border-0 btn-sm"
-                                                    type="submit" data-toggle="tooltip" title="Delete"
-                                                    data-placement="bottom"
-                                                    onclick="return confirm('Are you sure to delete it ?')">
-                                                <span class="btn-icon-wrapper opacity-8">
-                                                    <i class="fa fa-trash fa-w-20"></i>
-                                                </span>
-                                            </button>
-                                        </form>
-                                    </td>*@
+                                    <td class="text-center text-muted">@item.PhoneNumber</td>                             
                                 </tr>
                             }
                         </tbody>

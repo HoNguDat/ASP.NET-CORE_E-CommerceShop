@@ -66,87 +66,87 @@
                     </div>
                 </div>
                 <div style="text-align:center;font-size:18px">
-                    <h4>@Html.DisplayFor(model => model.product_name)</h4>
+                    <h4>@Html.DisplayFor(model => model.Name)</h4>
                     <hr />
                     <dl class="row">
                         <dt class="col-sm-2">
                             Image
                         </dt>
                         <dd class="col-sm-10">
-                            <img src="~/Admin/assets/images/product/@Model.product_image" width="100px" height="100px" />
+                            <img src="~/Admin/assets/images/product/@Model.Image" width="100px" height="100px" />
                         </dd>
 
                         <dt class="col-sm-2">
                             Category
                         </dt>
                         <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.category.cate_name)
+                            @Html.DisplayFor(model => model.Category.Name)
                         </dd>
                         <dt class="col-sm-2">
                             Brand
                         </dt>
                         <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.brand.brand_name)
+                            @Html.DisplayFor(model => model.Brand.Name)
                         </dd>
                         <dt class="col-sm-2">
                             Type laptop
                         </dt>
                         <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.typelaptop.typeLaptop_name)
+                            @Html.DisplayFor(model => model.TypeLaptop.Name)
                         </dd>
                         <dt class="col-sm-2">
                             Cpu
                         </dt>
                         <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.product_cpu)
+                            @Html.DisplayFor(model => model.Cpu)
                         </dd>
                         <dt class="col-sm-2">
                             Graphic card
                         </dt>
                         <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.product_graphiccard)
+                            @Html.DisplayFor(model => model.GraphicCard)
                         </dd>
                         <dt class="col-sm-2">
                             Feature
                         </dt>
                         <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.product_feature)
+                            @Html.DisplayFor(model => model.Feature)
                         </dd>
                         <dt class="col-sm-2">
                             Origin
                         </dt>
                         <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.product_origin)
+                            @Html.DisplayFor(model => model.Origin)
                         </dd>                       
                         <dt class="col-sm-2">
                             Ram
                         </dt>
                         <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.product_ram)
+                            @Html.DisplayFor(model => model.Ram)
                         </dd>
                         <dt class="col-sm-2">
                             Storage
                         </dt>
                         <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.product_storage)
+                            @Html.DisplayFor(model => model.Storage)
                         </dd>
                         <dt class="col-sm-2">
                             Screen
                         </dt>
                         <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.product_screen)
+                            @Html.DisplayFor(model => model.Screen)
                         </dd>
                         <dt class="col-sm-2">
                             Operating system
                         </dt>
                         <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.product_operatingsystem)
+                            @Html.DisplayFor(model => model.OperatingSystem)
                         </dd>
                         <dt class="col-sm-2">
                             Size, volume
                         </dt>
                         <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.product_size_volume)
+                            @Html.DisplayFor(model => model.SizeVolume)
                         </dd>
                         <dt class="col-sm-2">
                             Front camera
@@ -155,42 +155,42 @@
                             Battery
                         </dt>
                         <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.product_battery)
+                            @Html.DisplayFor(model => model.Battery)
                         </dd>
                         <dt class="col-sm-2">
                             Description
                         </dt>
                         <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.product_description)
+                            @Html.DisplayFor(model => model.Description)
                         </dd>
                         <dt class="col-sm-2">
                             Quantity
                         </dt>
                         <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.product_quantity)
+                            @Html.DisplayFor(model => model.Quantity)
                         </dd>
                         <dt class="col-sm-2">
                             Year of manufacturer
                         </dt>
                         <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.product_yearofmanufacturer)
+                            @Html.DisplayFor(model => model.YearOfManufacturer)
                         </dd>
                         <dt class="col-sm-2">
                             Price
                         </dt>
                         <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.product_price)
+                            @Html.DisplayFor(model => model.Price)
                         </dd>
                         <dt class="col-sm-2">
                             Color
                         </dt>
                         <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.product_color)
+                            @Html.DisplayFor(model => model.Color)
                         </dd>
                     </dl>
                 </div>
                 <div>
-                    <a asp-action="Edit" asp-route-id="@Model?.product_id">Edit</a> |
+                    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
                     <a asp-action="Index">Back to List</a>
                 </div>
 

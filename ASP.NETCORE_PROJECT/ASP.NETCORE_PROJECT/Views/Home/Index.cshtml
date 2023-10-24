@@ -123,18 +123,18 @@
                 <div class="col-lg-3 col-md-5 col-sm-6 pb-1">
                     <div class="product-item bg-light mb-4">
                         <div class="product-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="~/Admin/assets/images/product/@item.product_image" style="height:350px;object-fit:contain;padding:20px">
+                            <img class="img-fluid w-100" src="~/Admin/assets/images/product/@item.Image" style="height:350px;object-fit:contain;padding:20px">
                             <div class="product-action">
                                
                                 <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                                 <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
-                                <a class="btn btn-outline-dark btn-square" asp-action="Details" asp-controller="Home" asp-route-id="@item.product_id"><i class="fa fa-search"></i></a>
+                                <a class="btn btn-outline-dark btn-square" asp-action="Details" asp-controller="Home" asp-route-id="@item.Id"><i class="fa fa-search"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <a class="h6 text-decoration-none text-truncate" asp-action="Details" asp-controller="Home" asp-route-id="@item.product_id">@item.product_name</a>
+                            <a class="h6 text-decoration-none text-truncate" asp-action="Details" asp-controller="Home" asp-route-id="@item.Id">@item.Name</a>
                             <div class="d-flex align-items-center justify-content-center mt-2">
-                                <h5>@string.Format("{0:#,0}", item.product_price) VNĐ</h5><h6 class="text-muted ml-2"><del>@string.Format("{0:#,0}", item.product_price)</del></h6>
+                                <h5>@string.Format("{0:#,0}", item.Price) VNĐ</h5><h6 class="text-muted ml-2"><del>@string.Format("{0:#,0}", item.Price)</del></h6>
                             </div>
                             <div class="d-flex align-items-center justify-content-center mb-1">
                                 <small class="fa fa-star text-primary mr-1"></small>
@@ -146,7 +146,7 @@
                             </div>
                             <div class="d-flex align-items-center justify-content-center mb-1">
                                
-                                <button type="button" class="ajax-add-to-cart btn btn-outline-dark btn-square" data-id="@item.product_id" href=""><i class="fa fa-shopping-cart"></i></button>
+                                <button type="button" class="ajax-add-to-cart btn btn-outline-dark btn-square" data-id="@item.Id" href=""><i class="fa fa-shopping-cart"></i></button>
                             </div>
                         </div>
                     </div>
@@ -171,17 +171,17 @@
                 <div class="col-lg-3 col-md-5 col-sm-6 pb-1">
                     <div class="product-item bg-light mb-4">
                         <div class="product-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="~/Admin/assets/images/product/@item.product_image" style="height:350px;object-fit:contain">
+                            <img class="img-fluid w-100" src="~/Admin/assets/images/product/@item.Image" style="height:350px;object-fit:contain">
                             <div class="product-action">                               
                                 <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                                 <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
-                                <a class="btn btn-outline-dark btn-square" asp-action="Details" asp-controller="Home" asp-route-id="@item.product_id"><i class="fa fa-search"></i></a>
+                                <a class="btn btn-outline-dark btn-square" asp-action="Details" asp-controller="Home" asp-route-id="@item.Id"><i class="fa fa-search"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <a class="h6 text-decoration-none text-truncate" asp-action="Details" asp-controller="Home" asp-route-id="@item.product_id">@item.product_name</a>
+                            <a class="h6 text-decoration-none text-truncate" asp-action="Details" asp-controller="Home" asp-route-id="@item.Id">@item.Name</a>
                             <div class="d-flex align-items-center justify-content-center mt-2">
-                                <h5>@string.Format("{0:#,0}", item.product_price) VNĐ</h5><h6 class="text-muted ml-2"><del>@string.Format("{0:#,0}", item.product_price)</del></h6>
+                                <h5>@string.Format("{0:#,0}", item.Price) VNĐ</h5><h6 class="text-muted ml-2"><del>@string.Format("{0:#,0}", item.Price)</del></h6>
                             </div>
                             <div class="d-flex align-items-center justify-content-center mb-1">
                                 <small class="fa fa-star text-primary mr-1"></small>
@@ -193,7 +193,7 @@
                             </div>
                             <div class="d-flex align-items-center justify-content-center mb-1">
 
-                                <button type="button" class="ajax-add-to-cart btn btn-outline-dark btn-square" data-id="@item.product_id" href=""><i class="fa fa-shopping-cart"></i></button>
+                                <button type="button" class="ajax-add-to-cart btn btn-outline-dark btn-square" data-id="@item.Id" href=""><i class="fa fa-shopping-cart"></i></button>
                             </div>
                         </div>
                     </div>
@@ -217,17 +217,17 @@
                 <div class="col-lg-3 col-md-5 col-sm-6 pb-1">
                     <div class="product-item bg-light mb-4">
                         <div class="product-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="~/Admin/assets/images/product/@item.product_image" style="height:350px;object-fit:contain;padding:20px">
+                            <img class="img-fluid w-100" src="~/Admin/assets/images/product/@item.Image" style="height:350px;object-fit:contain;padding:20px">
                             <div class="product-action">                                
                                 <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                                 <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
-                                <a class="btn btn-outline-dark btn-square" asp-action="Details" asp-controller="Home" asp-route-id="@item.product_id"><i class="fa fa-search"></i></a>
+                                <a class="btn btn-outline-dark btn-square" asp-action="Details" asp-controller="Home" asp-route-id="@item.Id"><i class="fa fa-search"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <a class="h6 text-decoration-none text-truncate" asp-action="Details" asp-controller="Home" asp-route-id="@item.product_id">@item.product_name</a>
+                            <a class="h6 text-decoration-none text-truncate" asp-action="Details" asp-controller="Home" asp-route-id="@item.Id">@item.Name</a>
                             <div class="d-flex align-items-center justify-content-center mt-2">
-                                <h5>@string.Format("{0:#,0}", item.product_price) VNĐ</h5><h6 class="text-muted ml-2"><del>@string.Format("{0:#,0}", item.product_price)</del></h6>
+                                <h5>@string.Format("{0:#,0}", item.Price) VNĐ</h5><h6 class="text-muted ml-2"><del>@string.Format("{0:#,0}", item.Price)</del></h6>
                             </div>
                             <div class="d-flex align-items-center justify-content-center mb-1">
                                 <small class="fa fa-star text-primary mr-1"></small>
@@ -238,7 +238,7 @@
                                 <small>(99)</small>
                             </div>
                             <div class="d-flex align-items-center justify-content-center mb-1">
-                                <button type="button" class="ajax-add-to-cart btn btn-outline-dark btn-square" data-id="@item.product_id" href=""><i class="fa fa-shopping-cart"></i></button>
+                                <button type="button" class="ajax-add-to-cart btn btn-outline-dark btn-square" data-id="@item.Id" href=""><i class="fa fa-shopping-cart"></i></button>
                             </div>
                         </div>
                     </div>

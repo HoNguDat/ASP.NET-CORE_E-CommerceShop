@@ -6,41 +6,41 @@ namespace ASP.NETCORE_PROJECT.Models
     public class Product
     {
         [Key]
-        public Guid product_id { get; set; }
+        public Guid Id { get; set; }
         [Required(ErrorMessage = "Tên sản phẩm không được bỏ trống !")]
-        public string product_name { get; set; }
-        public string product_cpu { get; set; }
-        public string product_feature { get; set; }
-        public string product_origin { get; set; }
-        public string? product_face { get; set; }
-        public string? product_sim { get; set; }
-        public string product_ram { get; set; }
-        public string product_storage { get; set; }
-        public string product_screen { get; set; }
-        public string? product_graphiccard { get; set; }
-        public string product_operatingsystem { get; set; }
-        public string product_size_volume { get; set; }
-        public string? product_frontcamera { get; set; }
-        public string? product_backcamera { get; set; }
-        public string product_battery { get; set; }
-        [Required(ErrorMessage = "Mô tả không được bỏ trống !")]
-        public string product_description { get; set; }
-        [Required(ErrorMessage = "Số lượng không được bỏ trống !")]
-        public int product_quantity { get; set; }
-        [Required(ErrorMessage = "Năm sản xuất không được bỏ trống !")]
-        public int product_yearofmanufacturer { get; set; }
-        [Required(ErrorMessage = "Giá bán không được bỏ trống !")]
-        public int product_price { get; set; }
-        [Required(ErrorMessage = "Màu sắc không được bỏ trống !")]
-        public string product_color { get; set; }
-        public string? product_image { get; set; }
-        public Guid? product_typeid { get; set; }
-        public Guid? product_cateid { get; set; }
-        public Guid? product_brandid { get; set; }
+        public string Name { get; set; }
+        public string Cpu { get; set; }
+        public string Feature { get; set; }
+        public string Origin{ get; set; }
+        public string? Face { get; set; }
+        public string? Sim { get; set; }
+        public string Ram { get; set; }
+        public string Storage { get; set; }
+        public string Screen { get; set; }
+        public string? GraphicCard { get; set; }
+        public string OperatingSystem { get; set; }
+        public string SizeVolume { get; set; }
+        public string? FrontCamera { get; set; }
+        public string? BackCamera { get; set; }
+        public string Battery { get; set; }
+        [Required(ErrorMessage = "Please input description !")]
+        public string Description { get; set; }
+        [Required(ErrorMessage = "Please input quantity !")]
+        public int Quantity { get; set; }
+        [Required(ErrorMessage = "Please input year manufacturer !")]
+        public int YearOfManufacturer { get; set; }
+        [Required(ErrorMessage = "Please input price !")]
+        public int Price { get; set; }
+        [Required(ErrorMessage = "Color !")]
+        public string Color { get; set; }
+        public string? Image { get; set; }
+        public Guid? TypeId { get; set; }
+        public Guid? CategoryId { get; set; }
+        public Guid? BrandId { get; set; }
 
-        public virtual Category category { get; set; }
-        public virtual Brand brand { get; set; }
-        public virtual TypeLaptop typelaptop { get; set; }
+        public virtual Category Category { get; set; }
+        public virtual Brand Brand { get; set; }
+        public virtual TypeLaptop TypeLaptop { get; set; }
         public virtual ICollection<Comment> Comments { get; set; }
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
         [NotMapped]

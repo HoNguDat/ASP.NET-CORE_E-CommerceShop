@@ -15,6 +15,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
         private readonly ApplicationDbContext _context;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
+
         public OrderController(ApplicationDbContext context, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
         {
             _context = context;
@@ -22,6 +23,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
             _signInManager = signInManager;
 
         }
+
         [Authorize(Roles =("Admin,Manager"))]
         public async Task<IActionResult> Index()
         {
@@ -30,12 +32,13 @@ namespace ASP.NETCORE_PROJECT.Controllers
             ViewBag.Users = user;
             return View(model);
         }
+
         public async Task<IActionResult> ListOrder()
         {
             var user = await _userManager.GetUserAsync(User);
             var listUser = await _context.Users.ToListAsync();
             ViewBag.ListUser=listUser;
-            var model = await _context.Order.Where(x=>x.order_UserId==user.Id).ToListAsync();
+            var model = await _context.Order.Where(x=>x.UserId==user.Id).ToListAsync();
             if(model == null)
             {
                 return NotFound();
@@ -45,25 +48,26 @@ namespace ASP.NETCORE_PROJECT.Controllers
                 return View(model);
             }
         }
+
         public async Task<IActionResult> Order(Order model,string note)
         {
             var user = await _userManager.GetUserAsync(User);
             var listCart = HttpContext.Session.GetJson<List<Cart>>("cart");
-            model.order_UserId = user.Id;
-            model.order_createat = DateTime.Now;
-            model.order_note = note;
-            model.order_status = "Đơn hàng đang được xử lí";
-            model.order_totalbill = HttpContext.Session.GetJson<double>("totalbill");
+            model.UserId = user.Id;
+            model.CreateAt = DateTime.Now;
+            model.Note = note;
+            model.Status = "Đơn hàng đang được xử lí";
+            model.TotalBill = HttpContext.Session.GetJson<double>("totalbill");
             _context.Order.Add(model);
             _context.SaveChanges();
-            Guid order_id = model.order_id;
+            Guid order_id = model.Id;
             List<OrderDetail> orders = new List<OrderDetail>();
             foreach (var item in listCart)
             {
                 OrderDetail orderDetail = new OrderDetail();
-                orderDetail.orderdetail_quantity = item.Quantity;
-                orderDetail.orderdetail_orderid = order_id;
-                orderDetail.orderdetail_productid = item.Id;
+                orderDetail.Quantity = item.Quantity;
+                orderDetail.OrderId = order_id;
+                orderDetail.ProductId = item.Id;
                 orders.Add(orderDetail);
             }
             _context.OrderDetail.AddRange(orders);
@@ -71,8 +75,8 @@ namespace ASP.NETCORE_PROJECT.Controllers
             HttpContext.Session.Remove("cart");
             return RedirectToAction(nameof(ListOrder));
         }
+
         [Authorize(Roles = ("Admin,Manager"))]
-        // GET: Order/Edit/5
         public async Task<IActionResult> Edit(Guid? id)
         {
             if (id == null || _context.Order == null)
@@ -87,30 +91,30 @@ namespace ASP.NETCORE_PROJECT.Controllers
             }
             return View(order);
         }
+
         [Authorize(Roles = ("Admin,Manager"))]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Guid id,Order order,string status)
         {
-            if (id != order.order_id)
+            if (id != order.Id)
             {
                 return NotFound();
             }
-
               try
                 {
                     var data = await _context.Order.FindAsync(id);
-                    data.order_status = status;
-                    data.order_UserId = order.order_UserId;
-                    data.order_note = order.order_note;
-                    data.order_totalbill = order.order_totalbill;
+                    data.Status = status;
+                    data.UserId = order.UserId;
+                    data.Note = order.Note;
+                    data.TotalBill = order.TotalBill;
                     _context.Update(data);
                     await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!OrderExists(order.order_id))
+                    if (!OrderExists(order.Id))
                     {
                         return NotFound();
                     }
@@ -118,21 +122,23 @@ namespace ASP.NETCORE_PROJECT.Controllers
                     {
                         throw;
                     }             
-                
             }                       
         }
+
         private bool OrderExists(Guid id)
         {
-            return (_context.Order?.Any(e => e.order_id == id)).GetValueOrDefault();
+            return (_context.Order?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+
         public async Task<IActionResult> OrderDetailUser(Guid id)
         {
-            var model = await _context.OrderDetail.Include(x=>x.Product).Where(x => x.orderdetail_orderid == id).ToListAsync();
+            var model = await _context.OrderDetail.Include(x=>x.Product).Where(x => x.OrderId == id).ToListAsync();
             return View(model);
         }
+
         public async Task<IActionResult> OrderDetailAdmin(Guid id)
         {
-            var model = await _context.OrderDetail.Include(x => x.Product).Where(x => x.orderdetail_orderid == id).ToListAsync();
+            var model = await _context.OrderDetail.Include(x => x.Product).Where(x => x.OrderId == id).ToListAsync();
             return View(model);
         }
     }

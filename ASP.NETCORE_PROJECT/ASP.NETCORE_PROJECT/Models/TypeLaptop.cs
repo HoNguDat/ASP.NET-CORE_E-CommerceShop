@@ -6,10 +6,10 @@ namespace ASP.NETCORE_PROJECT.Models
     public class TypeLaptop
     {
         [Key]
-        public Guid typeLaptop_id { get; set; }
-        [Required(ErrorMessage = "Tên loại laptop không được bỏ trống !")]
-        public string typeLaptop_name { get; set; }
-        public string? typeLaptop_image { get; set; }
+        public Guid Id { get; set; }
+        [Required(ErrorMessage = "Please input type name !")]
+        public string Name { get; set; }
+        public string? Image { get; set; }
         public virtual ICollection<Product> Products { get; set; }
         [NotMapped]
         public IFormFile? TypeLaptopImage { get; set; }

@@ -3,32 +3,7 @@
     ViewBag.Title = "Giỏ hàng";
     Layout = "~/Views/Shared/_LayoutUser.cshtml";
 }
-@*<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript">
-    $(function () {
-        $("#removecart").click(function () {
-            var model = {};
-            //lấy id sản phẩm
-            model.Id = $("#product_id").val();
-            $.ajax({
-                type: "POST",
-                url: '@Url.Action("Remove", "Cart")',
-                data: JSON.stringify(model),
-                dataType: "json",
-                contentType: "application/json; charset=utf-8",
-                success: function () {
-                    $('#CartCount').text(@Session["count"] - 1);
-                    $("#product-" + model.Id).remove();
-                },
-                error: function () {
-                    alert("Lỗi trong khi thêm vào giỏ hàng!");
-                }
-            });
-            return false;
-        });
-    });
-</script>*@
-<!-- Cart Start -->
+
 <div class="container-fluid">
     <div class="row px-xl-5">
         <div class="col-lg-8 table-responsive mb-5">
@@ -71,23 +46,6 @@
                         <h6 class="font-weight-medium">$10</h6>
                     </div>
                 </div>
-               @* <div class="pt-2">
-                    <div class="d-flex justify-content-between mt-2">
-                        <h5>Total</h5>
-                        @{
-                            double sum = 0;
-
-                            foreach (var item in Model)
-                            {
-                                sum += item.TotalPrice;
-                                item.TotalBill = sum;
-                            }
-                            Session["order_totalbill"] = sum;
-                        }
-                        <h5>@string.Format("{0:#,0}",sum) VNĐ</h5>
-                    </div>
-                    <a href="@Url.Action("Index","Payment")" class="btn btn-block btn-primary font-weight-bold my-3 py-3">Tiếp tục thanh toán</a>
-                </div>*@
             </div>
         </div>
     </div>

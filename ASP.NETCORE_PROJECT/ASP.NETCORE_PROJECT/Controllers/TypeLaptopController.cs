@@ -14,8 +14,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
 {
     [Authorize(Roles = "Admin,Manager")]
     public class TypeLaptopController : Controller
-    {
-        
+    {       
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _webHostEnvironment;
 
@@ -25,7 +24,6 @@ namespace ASP.NETCORE_PROJECT.Controllers
             _webHostEnvironment = webHostEnvironment;
         }
 
-        // GET: TypeLaptop
         public async Task<IActionResult> Index()
         {
             return _context.TypeLaptop != null ?
@@ -33,7 +31,6 @@ namespace ASP.NETCORE_PROJECT.Controllers
                         Problem("Entity set 'ApplicationDbContext.TypeLaptop'  is null.");
         }
 
-        // GET: TypeLaptop/Details/5
         public async Task<IActionResult> Details(Guid? id)
         {
             if (id == null || _context.TypeLaptop == null)
@@ -42,37 +39,31 @@ namespace ASP.NETCORE_PROJECT.Controllers
             }
 
             var typeLaptop = await _context.TypeLaptop
-                .FirstOrDefaultAsync(m => m.typeLaptop_id == id);
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (typeLaptop == null)
             {
                 return NotFound();
             }
-
             return View(typeLaptop);
         }
 
-        // GET: TypeLaptop/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: TypeLaptop/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(TypeLaptop typeLaptop)
         {
             string uniqueFileName = UploadedFile(typeLaptop);
-            typeLaptop.typeLaptop_id = Guid.NewGuid();
-            typeLaptop.typeLaptop_image = uniqueFileName;
-
+            typeLaptop.Id = Guid.NewGuid();
+            typeLaptop.Image = uniqueFileName;
             _context.Add(typeLaptop);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
-
         }
+
         private string UploadedFile(TypeLaptop model)
         {
             string uniqueFileName = string.Empty;
@@ -88,7 +79,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
             }
             return uniqueFileName;
         }
-        // GET: TypeLaptop/Edit/5
+
         public async Task<IActionResult> Edit(Guid? id)
         {
             if (id == null || _context.TypeLaptop == null)
@@ -104,14 +95,11 @@ namespace ASP.NETCORE_PROJECT.Controllers
             return View(typeLaptop);
         }
 
-        // POST: TypeLaptop/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Guid id, TypeLaptop typeLaptop)
         {
-            if (id != typeLaptop.typeLaptop_id)
+            if (id != typeLaptop.Id)
             {
                 return NotFound();
             }
@@ -124,9 +112,9 @@ namespace ASP.NETCORE_PROJECT.Controllers
                     string uniqueFileName = string.Empty;
                     if (typeLaptop.TypeLaptopImage != null)
                     {
-                        if (data.typeLaptop_image != null)
+                        if (data.Image != null)
                         {
-                            string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "Admin/assets/images/typelaptop", data.typeLaptop_image);
+                            string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "Admin/assets/images/typelaptop", data.Image);
                             if (System.IO.File.Exists(filePath))
                             {
                                 System.IO.File.Delete(filePath);
@@ -134,10 +122,10 @@ namespace ASP.NETCORE_PROJECT.Controllers
                         }
                         uniqueFileName = UploadedFile(typeLaptop);
                     }
-                    data.typeLaptop_name = typeLaptop.typeLaptop_name;
+                    data.Name = typeLaptop.Name;
                     if (typeLaptop.TypeLaptopImage != null)
                     {
-                        data.typeLaptop_image = uniqueFileName;
+                        data.Image = uniqueFileName;
                     }
                     _context.Update(data);
                     await _context.SaveChangesAsync();
@@ -145,7 +133,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!TypeLaptopExists(typeLaptop.typeLaptop_id))
+                    if (!TypeLaptopExists(typeLaptop.Id))
                     {
                          return View(typeLaptop);
                     }
@@ -157,26 +145,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
                 }
             }
         }
-
-        // GET: TypeLaptop/Delete/5
-        //public async Task<IActionResult> Delete(Guid? id)
-        //{
-        //    if (id == null || _context.TypeLaptop == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var typeLaptop = await _context.TypeLaptop
-        //        .FirstOrDefaultAsync(m => m.typeLaptop_id == id);
-        //    if (typeLaptop == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return View(typeLaptop);
-        //}
-
-        // POST: TypeLaptop/Delete/5
+      
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
@@ -189,7 +158,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
             if (typeLaptop != null)
             {
                 string deleteFromFolder = Path.Combine(_webHostEnvironment.WebRootPath, "Admin/assets/images/typelaptop");
-                string currentImage = Path.Combine(Directory.GetCurrentDirectory(), deleteFromFolder, typeLaptop.typeLaptop_image);
+                string currentImage = Path.Combine(Directory.GetCurrentDirectory(), deleteFromFolder, typeLaptop.Image);
                 if (currentImage != null)
                 {
                     if (System.IO.File.Exists(currentImage))
@@ -205,7 +174,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
 
         private bool TypeLaptopExists(Guid id)
         {
-            return (_context.TypeLaptop?.Any(e => e.typeLaptop_id == id)).GetValueOrDefault();
+            return (_context.TypeLaptop?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

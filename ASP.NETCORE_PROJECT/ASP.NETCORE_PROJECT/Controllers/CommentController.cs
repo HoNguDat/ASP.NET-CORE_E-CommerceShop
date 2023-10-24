@@ -10,12 +10,14 @@ namespace ASP.NETCORE_PROJECT.Controllers
         private readonly ApplicationDbContext _context;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly UserManager<ApplicationUser> _userManager;
+
         public CommentController(ApplicationDbContext context, SignInManager<ApplicationUser> signInManager, UserManager<ApplicationUser> userManager)
         {
             _context = context;
             _signInManager = signInManager;
             _userManager = userManager;
         }
+
         public IActionResult Index()
         {
             return View();
@@ -28,10 +30,10 @@ namespace ASP.NETCORE_PROJECT.Controllers
                 var user = await _userManager.GetUserAsync(User);
                 string userID = user.Id;
                 Comment comment = new Comment();
-                comment.comment_userid = userID;
-                comment.comment_productid = productId;
-                comment.comment_content = content;
-                comment.comment_createdon = DateTime.Now;
+                comment.UserId = userID;
+                comment.ProductId = productId;
+                comment.Content = content;
+                comment.CreateAt = DateTime.Now;
                 _context.Comment.Add(comment);
                 _context.SaveChanges();
                 return RedirectToAction("Details", "Home", new { id = productId });

@@ -22,43 +22,43 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
         // Add your customizations after calling base.OnModelCreating(builder);
         modelBuilder.Entity<Category>()
              .HasMany(c => c.Products)
-             .WithOne(p => p.category)
-             .HasForeignKey(p => p.product_cateid);
+             .WithOne(p => p.Category)
+             .HasForeignKey(p => p.CategoryId);
 
         modelBuilder.Entity<Brand>()
             .HasMany(c => c.Products)
-            .WithOne(p => p.brand)
-            .HasForeignKey(p => p.product_brandid);
+            .WithOne(p => p.Brand)
+            .HasForeignKey(p => p.BrandId);
 
         modelBuilder.Entity<TypeLaptop>()
            .HasMany(c => c.Products)
-           .WithOne(p => p.typelaptop)
-           .HasForeignKey(p => p.product_typeid);
+           .WithOne(p => p.TypeLaptop)
+           .HasForeignKey(p => p.TypeId);
 
         modelBuilder.Entity<Product>()
             .HasMany(c => c.Comments)
             .WithOne(p => p.Product)
-            .HasForeignKey(p => p.comment_productid);
+            .HasForeignKey(p => p.ProductId);
 
         modelBuilder.Entity<ApplicationUser>()
           .HasMany(c => c.Comments)
           .WithOne(p => p.ApplicationUser)
-          .HasForeignKey(p => p.comment_userid);
+          .HasForeignKey(p => p.UserId);
 
         modelBuilder.Entity<ApplicationUser>()
             .HasMany(c => c.Orders)
             .WithOne(p => p.ApplicationUser)
-            .HasForeignKey(p => p.order_UserId);
+            .HasForeignKey(p => p.UserId);
 
         modelBuilder.Entity<Order>()
             .HasMany(c => c.OrderDetails)
             .WithOne(p => p.Order)
-            .HasForeignKey(p => p.orderdetail_orderid);
+            .HasForeignKey(p => p.OrderId);
 
         modelBuilder.Entity<Product>()
             .HasMany(c => c.OrderDetails)
             .WithOne(p => p.Product)
-            .HasForeignKey(p => p.orderdetail_productid);
+            .HasForeignKey(p => p.ProductId);
     }
     public DbSet<Product> Product { get; set; }
     public DbSet<Category> Category { get; set; }

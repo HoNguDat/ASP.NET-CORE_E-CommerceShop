@@ -6,10 +6,10 @@ namespace ASP.NETCORE_PROJECT.Models
     {
 
         [Key]
-        public Guid orderdetail_id { get; set; }
-        public Guid orderdetail_orderid { get; set; }
-        public Guid orderdetail_productid { get; set; }
-        public double orderdetail_quantity { get; set; }
+        public Guid Id { get; set; }
+        public Guid OrderId { get; set; }
+        public Guid ProductId { get; set; }
+        public double Quantity { get; set; }
 
         public virtual Order Order { get; set; }
         public virtual Product Product { get; set; }

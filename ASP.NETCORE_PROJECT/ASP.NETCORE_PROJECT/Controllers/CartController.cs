@@ -9,7 +9,6 @@ namespace ASP.NETCORE_PROJECT.Controllers
 {
     public class CartController : Controller
     {      
-       
         private readonly ApplicationDbContext _context;
        
         public CartController(ApplicationDbContext context)
@@ -17,6 +16,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
             _context = context;           
 
         }
+
         public List<Cart> Carts
         {
             get
@@ -29,36 +29,38 @@ namespace ASP.NETCORE_PROJECT.Controllers
                 return data;
             }
         }
+
         public IActionResult Index()
         {
             ViewBag.TotalBill = TotalBill(Carts);
             HttpContext.Session.SetJson("totalbill",(double)ViewBag.TotalBill);
             return View(Carts); 
         }
+
         public IActionResult AddToCart(Guid id, int Quantity, string type = "Normal")
         {
             var myCart = Carts;
             var item = myCart.SingleOrDefault(p => p.Id == id);
 
-            if (item == null)//chưa có
+            if (item == null)
             {
-                var hangHoa = _context.Product.SingleOrDefault(p => p.product_id == id);
+                var product = _context.Product.SingleOrDefault(p => p.Id == id);
                 item = new Cart
                 {
                     Id = id,
-                    Name = hangHoa.product_name,
-                    Price = hangHoa.product_price,
+                    Name = product.Name,
+                    Price = product.Price,
                     Quantity = Quantity,
-                    Image = hangHoa.product_image
+                    Image = product.Image
 
                 };
                 myCart.Add(item);
-
             }
             else
             {
                 item.Quantity += Quantity;
             }
+
             HttpContext.Session.SetJson("cart", myCart);
 
             if (type == "ajax")
@@ -69,8 +71,8 @@ namespace ASP.NETCORE_PROJECT.Controllers
                 });
             }
             return RedirectToAction("Index");
-
         }
+
         private int isExist(Guid id)
         {
             List<Cart> cart = (List<Cart>)HttpContext.Session.GetJson<List<Cart>>("cart");
@@ -80,6 +82,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
                     return i;
             return -1;
         }
+
         private double TotalBill(List<Cart> cart)
         {
             double total = 0;
@@ -92,14 +95,13 @@ namespace ASP.NETCORE_PROJECT.Controllers
             }
             return total;
         }
+
         public IActionResult Remove(Guid id)
-        {
-            ///*List<Cart>*/ var cart = HttpContext.Session.GetJson<List<Cart>>("cart");          
+        {        
             var cart = HttpContext.Session.GetJson<List<Cart>>("cart");
             cart.RemoveAll(x => x.Id == id);
             HttpContext.Session.SetJson("cart", cart);
-            return RedirectToAction("Index");
-          
+            return RedirectToAction("Index");         
         }
     }
 }

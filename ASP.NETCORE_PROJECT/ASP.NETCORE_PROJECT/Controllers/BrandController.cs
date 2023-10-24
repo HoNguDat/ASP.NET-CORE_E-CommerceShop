@@ -25,7 +25,6 @@ namespace ASP.NETCORE_PROJECT.Controllers
             _webHostEnvironment = webHostEnvironment;
         }
 
-        // GET: Brand
         public async Task<IActionResult> Index()
         {
               return _context.Brand != null ? 
@@ -33,16 +32,14 @@ namespace ASP.NETCORE_PROJECT.Controllers
                           Problem("Entity set 'ApplicationDbContext.Brand'  is null.");
         }
 
-        // GET: Brand/Details/5
         public async Task<IActionResult> Details(Guid? id)
         {
             if (id == null || _context.Brand == null)
             {
                 return NotFound();
             }
-
             var brand = await _context.Brand
-                .FirstOrDefaultAsync(m => m.brand_id == id);
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (brand == null)
             {
                 return NotFound();
@@ -51,15 +48,11 @@ namespace ASP.NETCORE_PROJECT.Controllers
             return View(brand);
         }
 
-        // GET: Brand/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Brand/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Brand brand)
@@ -67,8 +60,8 @@ namespace ASP.NETCORE_PROJECT.Controllers
             try
             {
                 string uniqueFileName = UploadedFile(brand);
-                brand.brand_id = Guid.NewGuid();
-                brand.brand_image = uniqueFileName;
+                brand.Id = Guid.NewGuid();
+                brand.Image = uniqueFileName;
                 _context.Add(brand);
                 await _context.SaveChangesAsync();
                 TempData["SuccessMessage"] = "Create successful brand !";
@@ -81,6 +74,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
             }
            
         }
+
         private string UploadedFile(Brand model)
         {
             string uniqueFileName = string.Empty;
@@ -97,7 +91,6 @@ namespace ASP.NETCORE_PROJECT.Controllers
             return uniqueFileName;
         }
 
-        // GET: Brand/Edit/5
         public async Task<IActionResult> Edit(Guid? id)
         {
             if (id == null || _context.Brand == null)
@@ -113,14 +106,11 @@ namespace ASP.NETCORE_PROJECT.Controllers
             return View(brand);
         }
 
-        // POST: Brand/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Guid id, Brand brand)
         {
-            if (id != brand.brand_id)
+            if (id != brand.Id)
             {
                 return NotFound();
             }
@@ -132,9 +122,9 @@ namespace ASP.NETCORE_PROJECT.Controllers
                     string uniqueFileName = string.Empty;
                     if (brand.BrandImage != null)
                     {
-                        if (data.brand_image != null)
+                        if (data.Image != null)
                         {
-                            string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "Admin/assets/images/brand", data.brand_image);
+                            string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "Admin/assets/images/brand", data.Image);
                             if (System.IO.File.Exists(filePath))
                             {
                                 System.IO.File.Delete(filePath);
@@ -142,10 +132,10 @@ namespace ASP.NETCORE_PROJECT.Controllers
                         }
                         uniqueFileName = UploadedFile(brand);
                     }
-                    data.brand_name = brand.brand_name;
+                    data.Name = brand.Name;
                     if (brand.BrandImage != null)
                     {
-                        data.brand_image = uniqueFileName;
+                        data.Image = uniqueFileName;
                     }
                     _context.Update(data);
                     await _context.SaveChangesAsync();
@@ -154,7 +144,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!BrandExists(brand.brand_id))
+                    if (!BrandExists(brand.Id))
                     {
                         return NotFound();
                     }
@@ -168,25 +158,6 @@ namespace ASP.NETCORE_PROJECT.Controllers
             }
         }
 
-        // GET: Brand/Delete/5
-        //public async Task<IActionResult> Delete(Guid? id)
-        //{
-        //    if (id == null || _context.Brand == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var brand = await _context.Brand
-        //        .FirstOrDefaultAsync(m => m.brand_id == id);
-        //    if (brand == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return View(brand);
-        //}
-
-        // POST: Brand/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
@@ -199,7 +170,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
             if (brand != null)
             {
                 string deleteFromFolder = Path.Combine(_webHostEnvironment.WebRootPath, "Admin/assets/images/brand");
-                string currentImage = Path.Combine(Directory.GetCurrentDirectory(), deleteFromFolder, brand.brand_image);
+                string currentImage = Path.Combine(Directory.GetCurrentDirectory(), deleteFromFolder, brand.Image);
                 if (currentImage != null)
                 {
                     if (System.IO.File.Exists(currentImage))
@@ -216,7 +187,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
 
         private bool BrandExists(Guid id)
         {
-          return (_context.Brand?.Any(e => e.brand_id == id)).GetValueOrDefault();
+          return (_context.Brand?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

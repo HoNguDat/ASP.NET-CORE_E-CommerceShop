@@ -25,7 +25,6 @@ namespace ASP.NETCORE_PROJECT.Controllers
             _webHostEnvironment = webHostEnvironment;
         }
 
-        // GET: Category
         public async Task<IActionResult> Index()
         {
             return _context.Category != null ?
@@ -33,7 +32,6 @@ namespace ASP.NETCORE_PROJECT.Controllers
                         Problem("Entity set 'ApplicationDbContext.Category'  is null.");
         }
 
-        // GET: Category/Details/5
         public async Task<IActionResult> Details(Guid? id)
         {
             if (id == null || _context.Category == null)
@@ -42,37 +40,31 @@ namespace ASP.NETCORE_PROJECT.Controllers
             }
 
             var category = await _context.Category
-                .FirstOrDefaultAsync(m => m.cate_id == id);
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (category == null)
             {
                 return NotFound();
             }
-
             return View(category);
         }
 
-        // GET: Category/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Category/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Category category)
         {
             string uniqueFileName = UploadedFile(category);
-            category.cate_id = Guid.NewGuid();
-            category.cate_image = uniqueFileName;
+            category.Id = Guid.NewGuid();
+            category.Image = uniqueFileName;
             _context.Add(category);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
-
-
         }
+
         private string UploadedFile(Category model)
         {
             string uniqueFileName = string.Empty;
@@ -88,7 +80,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
             }
             return uniqueFileName;
         }
-        // GET: Category/Edit/5
+
         public async Task<IActionResult> Edit(Guid? id)
         {
             if (id == null || _context.Category == null)
@@ -104,14 +96,11 @@ namespace ASP.NETCORE_PROJECT.Controllers
             return View(category);
         }
 
-        // POST: Category/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Guid id, Category category)
         {
-            if (id != category.cate_id)
+            if (id != category.Id)
             {
                 return NotFound();
             }
@@ -123,9 +112,9 @@ namespace ASP.NETCORE_PROJECT.Controllers
                     string uniqueFileName = string.Empty;
                     if (category.CategoryImage != null)
                     {
-                        if (data.cate_image != null)
+                        if (data.Image != null)
                         {
-                            string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "Admin/assets/images", data.cate_image);
+                            string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "Admin/assets/images", data.Image);
                             if (System.IO.File.Exists(filePath))
                             {
                                 System.IO.File.Delete(filePath);
@@ -133,10 +122,10 @@ namespace ASP.NETCORE_PROJECT.Controllers
                         }
                         uniqueFileName = UploadedFile(category);
                     }
-                    data.cate_name = category.cate_name;
+                    data.Name = category.Name;
                     if (category.CategoryImage != null)
                     {
-                        data.cate_image = uniqueFileName;
+                        data.Image = uniqueFileName;
                     }
                     _context.Update(data);
                     await _context.SaveChangesAsync();
@@ -144,7 +133,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CategoryExists(category.cate_id))
+                    if (!CategoryExists(category.Id))
                     {
                         return NotFound();
                     }
@@ -152,30 +141,10 @@ namespace ASP.NETCORE_PROJECT.Controllers
                     {
                         throw;
                     }
-                   return View(category);
                 }
             }                                
         }
 
-        // GET: Category/Delete/5
-        //public async Task<IActionResult> Delete(Guid? id)
-        //{
-        //    if (id == null || _context.Category == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var category = await _context.Category
-        //        .FirstOrDefaultAsync(m => m.cate_id == id);
-        //    if (category == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return View(category);
-        //}
-
-        // POST: Category/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
@@ -188,7 +157,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
             if (category != null)
             {
                 string deleteFromFolder = Path.Combine(_webHostEnvironment.WebRootPath, "Admin/assets/images");
-                string currentImage = Path.Combine(Directory.GetCurrentDirectory(), deleteFromFolder, category.cate_image);
+                string currentImage = Path.Combine(Directory.GetCurrentDirectory(), deleteFromFolder, category.Image);
                 if (currentImage != null)
                 {
                     if (System.IO.File.Exists(currentImage))
@@ -204,7 +173,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
 
         private bool CategoryExists(Guid id)
         {
-            return (_context.Category?.Any(e => e.cate_id == id)).GetValueOrDefault();
+            return (_context.Category?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
