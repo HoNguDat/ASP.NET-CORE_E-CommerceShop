@@ -30,7 +30,7 @@ namespace ASP.NETCORE_PROJECT.Models
         [Required(ErrorMessage = "Please input year manufacturer !")]
         public int YearOfManufacturer { get; set; }
         [Required(ErrorMessage = "Please input price !")]
-        public int Price { get; set; }
+        public double Price { get; set; }
         [Required(ErrorMessage = "Color !")]
         public string Color { get; set; }
         public string? Image { get; set; }
