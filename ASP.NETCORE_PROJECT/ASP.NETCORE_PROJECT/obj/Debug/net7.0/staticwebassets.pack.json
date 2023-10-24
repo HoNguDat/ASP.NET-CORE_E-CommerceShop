@@ -1,0 +1,1453 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ASP.NETCORE_PROJECT.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ASP.NETCORE_PROJECT.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\fonts\\AR.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\AR.svg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\fonts\\AS.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\AS.svg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\fonts\\BB.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\BB.svg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\fonts\\BD.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\BD.svg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\fonts\\BE.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\BE.svg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\fonts\\BF.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\BF.svg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\fonts\\BG.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\BG.svg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\fonts\\BH.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\BH.svg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\fonts\\CH.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\CH.svg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\fonts\\DE.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\DE.svg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\fonts\\ES.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\ES.svg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\fonts\\FR.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\FR.svg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\fonts\\IT.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\IT.svg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\fonts\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\Linearicons-Free.woff2"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\fonts\\Pe-icon-7-stroke.woff",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\Pe-icon-7-stroke.woff"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\fonts\\US.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\US.svg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\57ff00c1-3e5e-4c99-b119-274158b7538e_icon-laptop.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\57ff00c1-3e5e-4c99-b119-274158b7538e_icon-laptop.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\5cfb5fc5-b4f8-4d00-b178-2f7d8b84f6f1_img-dienthoai-desk.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\5cfb5fc5-b4f8-4d00-b178-2f7d8b84f6f1_img-dienthoai-desk.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\77a2e792-9e5c-45bd-85a2-6070652f252b_icon-smartwatch.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\77a2e792-9e5c-45bd-85a2-6070652f252b_icon-smartwatch.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\_default-product.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\_default-product.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\_default-user.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\_default-user.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\a1941fd0-e03d-4392-91f1-cee7e5a55dda_icon-tcdm.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\a1941fd0-e03d-4392-91f1-cee7e5a55dda_icon-tcdm.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\add-image-icon.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\add-image-icon.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\avatars\\1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\avatars\\1.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\avatars\\2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\avatars\\2.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\avatars\\3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\avatars\\3.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\avatars\\4.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\avatars\\4.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\avatars\\5.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\avatars\\5.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\avatars\\6.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\avatars\\6.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\avatars\\7.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\avatars\\7.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\avatars\\8.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\avatars\\8.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\avatars\\9.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\avatars\\9.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\avatars\\capture_63626f28d59fa_221102_082248_PNG",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\avatars"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\avatars\\default-avatar.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\avatars\\default-avatar.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\brand\\11e34b84-3c0a-4ed3-a92d-8f4f88af96dc_logovivo.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\brand\\11e34b84-3c0a-4ed3-a92d-8f4f88af96dc_logovivo.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\brand\\1377241b-e629-415c-aff2-a1e7c425d9f3_logo-asus-149x40.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\brand\\1377241b-e629-415c-aff2-a1e7c425d9f3_logo-asus-149x40.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\brand\\5f258d93-f168-488b-8919-3e3a824d9c5f_logooppo.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\brand\\5f258d93-f168-488b-8919-3e3a824d9c5f_logooppo.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\brand\\6466d5b7-3abb-452d-9371-0d024b4c9227_logo-msi-149x40.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\brand\\6466d5b7-3abb-452d-9371-0d024b4c9227_logo-msi-149x40.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\brand\\66be4f8b-2c8e-498f-b5e5-cfb778e0c775_logo-macbook-149x40.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\brand\\66be4f8b-2c8e-498f-b5e5-cfb778e0c775_logo-macbook-149x40.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\brand\\802fe3f1-133a-4ca1-962a-fed3b9494a46_logosamsung.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\brand\\802fe3f1-133a-4ca1-962a-fed3b9494a46_logosamsung.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\brand\\82c2ac30-fdd4-4b72-bf21-2ac1371aa418_logo-hp-149x40-1.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\brand\\82c2ac30-fdd4-4b72-bf21-2ac1371aa418_logo-hp-149x40-1.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\brand\\9cb4c488-c22b-4196-b42f-d51a635e928d_logoxiaomi.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\brand\\9cb4c488-c22b-4196-b42f-d51a635e928d_logoxiaomi.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\brand\\e18feac4-ddb4-4a49-af8a-9a073e8c6ae6_logoiphone.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\brand\\e18feac4-ddb4-4a49-af8a-9a073e8c6ae6_logoiphone.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\brand\\f6462744-7451-4439-9cca-f4bb4021d116_logo-lenovo-149x40.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\brand\\f6462744-7451-4439-9cca-f4bb4021d116_logo-lenovo-149x40.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\brand\\f7c2b3d2-9250-4fcc-a2af-bd169e1078f1_logorealme.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\brand\\f7c2b3d2-9250-4fcc-a2af-bd169e1078f1_logorealme.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\default-avatar.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\default-avatar.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\dropdown-header\\abstract1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\dropdown-header\\abstract1.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\dropdown-header\\abstract2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\dropdown-header\\abstract2.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\dropdown-header\\abstract3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\dropdown-header\\abstract3.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\dropdown-header\\abstract4.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\dropdown-header\\abstract4.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\dropdown-header\\abstract5.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\dropdown-header\\abstract5.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\dropdown-header\\city1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\dropdown-header\\city1.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\dropdown-header\\city2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\dropdown-header\\city2.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\dropdown-header\\city3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\dropdown-header\\city3.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\dropdown-header\\city4.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\dropdown-header\\city4.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\dropdown-header\\city5.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\dropdown-header\\city5.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\icons.gif",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\icons.gif"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\logo-inverse.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\logo-inverse.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\03f23c46-2599-474e-942f-b49f2aaadf9c_638152793094933200_asus-zenbook-ux3402-bac-1.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\03f23c46-2599-474e-942f-b49f2aaadf9c_638152793094933200_asus-zenbook-ux3402-bac-1.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\09ec9768-58bd-438a-9f39-de18c48faf4b_637985736585000612_samsung-galaxy-z-fold4-kem-dd-tra-gop.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\09ec9768-58bd-438a-9f39-de18c48faf4b_637985736585000612_samsung-galaxy-z-fold4-kem-dd-tra-gop.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\14e7bd16-50ff-4d62-a86b-e4ef1412b939_samsung-galaxy-a73-5g-xanh-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\14e7bd16-50ff-4d62-a86b-e4ef1412b939_samsung-galaxy-a73-5g-xanh-thumb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\1e73106e-4f71-47d8-9635-f9c27a0221e7_638151671900654404_lenovo-gaming-legion-5-15iah7h-xam-dam-1.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\1e73106e-4f71-47d8-9635-f9c27a0221e7_638151671900654404_lenovo-gaming-legion-5-15iah7h-xam-dam-1.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\213522b4-bcce-41ff-a226-9dd9f7e5dc3d_637788079927538825_asus-tuf-gaming-fx506lh-den-2022-1.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\213522b4-bcce-41ff-a226-9dd9f7e5dc3d_637788079927538825_asus-tuf-gaming-fx506lh-den-2022-1.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\251f761d-114a-4550-9644-7c668d90b840_Samsung-Galaxy-S21-FE-vang-1-2-600x600.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\251f761d-114a-4550-9644-7c668d90b840_Samsung-Galaxy-S21-FE-vang-1-2-600x600.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\252e28e9-1a2b-4232-a404-c91e2d8e6ac7_637902004646934076_macbook-air-m2-2022-xam-1.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\252e28e9-1a2b-4232-a404-c91e2d8e6ac7_637902004646934076_macbook-air-m2-2022-xam-1.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\26287ff1-d8c1-44f4-b29e-9c560a0cd796_Galaxy-S22-Ultra-Green-600x600.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\26287ff1-d8c1-44f4-b29e-9c560a0cd796_Galaxy-S22-Ultra-Green-600x600.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\2f9e2004-d1a2-4dc7-9f4c-32cc4ace59f9_638134385008402132_samsung-galaxy-a14-4g-dd-moi.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\2f9e2004-d1a2-4dc7-9f4c-32cc4ace59f9_638134385008402132_samsung-galaxy-a14-4g-dd-moi.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\326e6fdf-98df-433b-ba93-c9119eedb505_iphone-14-pro-vang-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\326e6fdf-98df-433b-ba93-c9119eedb505_iphone-14-pro-vang-thumb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\37db65b2-cc4f-4810-92c7-4ac1016f4294_637985736585000612_samsung-galaxy-z-fold4-kem-dd-tra-gop.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\37db65b2-cc4f-4810-92c7-4ac1016f4294_637985736585000612_samsung-galaxy-z-fold4-kem-dd-tra-gop.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\3d3e2193-0865-4385-9fde-df28f30d906f_638072161262575097_xiaomi-redmi-note-11-pro-4g-dd-bh.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\3d3e2193-0865-4385-9fde-df28f30d906f_638072161262575097_xiaomi-redmi-note-11-pro-4g-dd-bh.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\4f9fbd11-85d2-4682-9d24-8470a372cf05_637985736585000612_samsung-galaxy-z-fold4-kem-dd-tra-gop.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\4f9fbd11-85d2-4682-9d24-8470a372cf05_637985736585000612_samsung-galaxy-z-fold4-kem-dd-tra-gop.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\648cdb95-22f0-48a8-82e5-a676f978741d_apple-macbook-pro-m2-2022-16gb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\648cdb95-22f0-48a8-82e5-a676f978741d_apple-macbook-pro-m2-2022-16gb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\6b8f57ea-0c5b-4eea-9f1f-b857d2d9033e_vivo-v25-pro-5g-xanh-thumb-1-600x600.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\6b8f57ea-0c5b-4eea-9f1f-b857d2d9033e_vivo-v25-pro-5g-xanh-thumb-1-600x600.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\7ca2ba6d-c139-443f-85db-e6468b01e361_samsung-galaxy-z-flip4-5g-128gb-thumb-tim-600x600.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\7ca2ba6d-c139-443f-85db-e6468b01e361_samsung-galaxy-z-flip4-5g-128gb-thumb-tim-600x600.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\83ea9f81-eb78-46ad-b798-c52fbc2bcaaf_637985736585000612_samsung-galaxy-z-fold4-kem-dd-tra-gop.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\83ea9f81-eb78-46ad-b798-c52fbc2bcaaf_637985736585000612_samsung-galaxy-z-fold4-kem-dd-tra-gop.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\ade4bc78-5d63-4633-862d-c10722aa680a_macbook-air-m1-2020-gray-600x600.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\ade4bc78-5d63-4633-862d-c10722aa680a_macbook-air-m1-2020-gray-600x600.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\c1677489-8d47-4575-9376-f58beb0b17bb_samsung-galaxy-a54-thumb-tim-600x600.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\c1677489-8d47-4575-9376-f58beb0b17bb_samsung-galaxy-a54-thumb-tim-600x600.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\c3c6030d-a05a-415a-844b-15c80284cb7e_macbook-pro-14-m1-pro-2021-bac-1-1-600x600.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\c3c6030d-a05a-415a-844b-15c80284cb7e_macbook-pro-14-m1-pro-2021-bac-1-1-600x600.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\c57ae6cf-4306-4dcb-84a0-8c1b977e98aa_asus-gaming-rog-strix-scar-18-g834jy-i9-n6039w-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\c57ae6cf-4306-4dcb-84a0-8c1b977e98aa_asus-gaming-rog-strix-scar-18-g834jy-i9-n6039w-thumb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\cc9aa4e3-3f61-4aa5-8529-b19652cfe261_iphone-14-128gb-vang-thumbnew-600x600.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\cc9aa4e3-3f61-4aa5-8529-b19652cfe261_iphone-14-128gb-vang-thumbnew-600x600.jpeg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\cd6ea0e6-b16a-424e-9f66-0cf1a82493a6_xiaomi-13-thumb-den-600x600.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\cd6ea0e6-b16a-424e-9f66-0cf1a82493a6_xiaomi-13-thumb-den-600x600.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\db13197a-2177-4687-b998-f14e812304e6_oppo-find-x5-pro-den-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\db13197a-2177-4687-b998-f14e812304e6_oppo-find-x5-pro-den-thumb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\e239a698-5a29-4d58-b740-e9ada8726655_iPhone-14-plus-thumb-den-600x600.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\e239a698-5a29-4d58-b740-e9ada8726655_iPhone-14-plus-thumb-den-600x600.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\e3179d8e-c56e-4a8f-b2b6-a51b3e3e4c3a_samsung-galaxy-a23-cam-thumb-600x600.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\e3179d8e-c56e-4a8f-b2b6-a51b3e3e4c3a_samsung-galaxy-a23-cam-thumb-600x600.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\e3fc7e56-90f4-4378-b30c-ae604d4aab6f_637931467775595338_hp-15s-fq-bac-win11-1.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\e3fc7e56-90f4-4378-b30c-ae604d4aab6f_637931467775595338_hp-15s-fq-bac-win11-1.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\ead4e595-b0f1-4350-b5d4-f075bb47dc39_hp-omen-16-n0085ax-r9-7c144pa-thumb-fix-600x600.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\ead4e595-b0f1-4350-b5d4-f075bb47dc39_hp-omen-16-n0085ax-r9-7c144pa-thumb-fix-600x600.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\product\\fd70bfd9-8c9d-4274-8b38-e1797c3f061c_iphone-14-pro-max-den-thumb-600x600.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\fd70bfd9-8c9d-4274-8b38-e1797c3f061c_iphone-14-pro-max-den-thumb-600x600.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\sidebar\\abstract1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\sidebar\\abstract1.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\sidebar\\abstract2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\sidebar\\abstract2.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\sidebar\\abstract3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\sidebar\\abstract3.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\sidebar\\abstract4.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\sidebar\\abstract4.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\sidebar\\abstract5.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\sidebar\\abstract5.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\sidebar\\city1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\sidebar\\city1.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\sidebar\\city2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\sidebar\\city2.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\sidebar\\city3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\sidebar\\city3.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\sidebar\\city4.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\sidebar\\city4.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\sidebar\\city5.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\sidebar\\city5.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\typelaptop\\18fab513-8ee6-4b24-a4e1-8b0d87cfe04b_laptop-hoc-tap-van-phong.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\typelaptop\\18fab513-8ee6-4b24-a4e1-8b0d87cfe04b_laptop-hoc-tap-van-phong.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\typelaptop\\5e797a37-eca1-4903-806a-4110dff69361_laptop-mong-nhe.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\typelaptop\\5e797a37-eca1-4903-806a-4110dff69361_laptop-mong-nhe.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\typelaptop\\9bb7e4a4-31dc-43b9-99f0-2e14c6d44e22_laptop-do-hoa.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\typelaptop\\9bb7e4a4-31dc-43b9-99f0-2e14c6d44e22_laptop-do-hoa.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\typelaptop\\a09b7617-0103-46c4-97f5-44654e0613e2_laptop-gaming.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\typelaptop\\a09b7617-0103-46c4-97f5-44654e0613e2_laptop-gaming.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\images\\typelaptop\\c99ada8a-4f34-47b2-803e-7cb61552146b_laptop-cao-cap-sang-trong.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\typelaptop\\c99ada8a-4f34-47b2-803e-7cb61552146b_laptop-cao-cap-sang-trong.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\scripts\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\scripts\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\scripts\\main.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\scripts\\main.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\assets\\scripts\\my_script.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\scripts\\my_script.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\main.css",
+      "PackagePath": "staticwebassets\\Admin\\main.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\Admin\\my_style.css",
+      "PackagePath": "staticwebassets\\Admin\\my_style.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\User\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\User\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\User\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\User\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\User\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\User\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\css\\style.css",
+      "PackagePath": "staticwebassets\\User\\css\\style.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\User\\css\\style.min.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\carousel-3.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\carousel-3.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\carousel_1.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\carousel_1.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\carousel_2.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\carousel_2.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\carousel_3.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\carousel_3.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\carousel_4.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\carousel_4.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\cat-1.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\cat-2.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\cat-3.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\cat-4.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\crl_1.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\crl_1.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\crl_2.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\crl_2.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\crl_3.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\crl_3.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\crl_4.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\crl_4.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\crl_5.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\crl_5.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\fav.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\fav.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\localhost.html",
+      "PackagePath": "staticwebassets\\User\\img\\localhost.html"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\logo-asus-149x40.png",
+      "PackagePath": "staticwebassets\\User\\img\\logo-asus-149x40.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\logo-hp-149x40-1.png",
+      "PackagePath": "staticwebassets\\User\\img\\logo-hp-149x40-1.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\logo-lenovo-149x40.png",
+      "PackagePath": "staticwebassets\\User\\img\\logo-lenovo-149x40.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\logo-macbook-149x40.png",
+      "PackagePath": "staticwebassets\\User\\img\\logo-macbook-149x40.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\logoiphone.png",
+      "PackagePath": "staticwebassets\\User\\img\\logoiphone.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\logooppo.png",
+      "PackagePath": "staticwebassets\\User\\img\\logooppo.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\logorealme.png",
+      "PackagePath": "staticwebassets\\User\\img\\logorealme.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\logosamsung.png",
+      "PackagePath": "staticwebassets\\User\\img\\logosamsung.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\logovivo.png",
+      "PackagePath": "staticwebassets\\User\\img\\logovivo.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\logoxiaomi.png",
+      "PackagePath": "staticwebassets\\User\\img\\logoxiaomi.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\offer-1.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\offer-1.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\offer-2.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\offer-2.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\payments.png",
+      "PackagePath": "staticwebassets\\User\\img\\payments.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\product-1.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\product-1.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\product-2.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\product-2.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\product-3.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\product-3.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\product-4.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\product-4.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\product-5.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\product-5.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\product-6.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\product-6.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\product-7.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\product-7.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\product-8.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\product-8.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\product-9.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\product-9.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\user.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\vendor-1.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\vendor-1.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\vendor-2.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\vendor-2.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\vendor-3.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\vendor-3.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\vendor-4.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\vendor-4.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\vendor-5.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\vendor-5.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\vendor-6.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\vendor-6.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\vendor-7.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\vendor-7.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\img\\vendor-8.jpg",
+      "PackagePath": "staticwebassets\\User\\img\\vendor-8.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\js\\main.js",
+      "PackagePath": "staticwebassets\\User\\js\\main.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\User\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\User\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\User\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\User\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\mail\\contact.js",
+      "PackagePath": "staticwebassets\\User\\mail\\contact.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\mail\\contact.php",
+      "PackagePath": "staticwebassets\\User\\mail\\contact.php"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\mail\\jqBootstrapValidation.min.js",
+      "PackagePath": "staticwebassets\\User\\mail\\jqBootstrapValidation.min.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_code.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_code.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_custom-forms.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_input-group.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_jumbotron.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_media.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_media.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_print.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_print.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_float.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_size.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\utilities\\_align.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\utilities\\_background.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\utilities\\_display.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\utilities\\_float.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\utilities\\_interactions.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\utilities\\_interactions.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\utilities\\_position.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\utilities\\_text.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\User\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\User\\scss\\style.scss"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\images\\banner2.jpg",
+      "PackagePath": "staticwebassets\\images\\banner2.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\images\\banner3.jpg",
+      "PackagePath": "staticwebassets\\images\\banner3.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\images\\banner4.jpg",
+      "PackagePath": "staticwebassets\\images\\banner4.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\images\\bigbanner.jpg",
+      "PackagePath": "staticwebassets\\images\\bigbanner.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\images\\placeholder.jpg",
+      "PackagePath": "staticwebassets\\images\\placeholder.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\images\\register.jpg",
+      "PackagePath": "staticwebassets\\images\\register.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\images\\slickslide\\sl.png",
+      "PackagePath": "staticwebassets\\images\\slickslide\\sl.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\images\\slickslide\\sl1.png",
+      "PackagePath": "staticwebassets\\images\\slickslide\\sl1.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\images\\slickslide\\sl2.png",
+      "PackagePath": "staticwebassets\\images\\slickslide\\sl2.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\images\\slickslide\\sl3.png",
+      "PackagePath": "staticwebassets\\images\\slickslide\\sl3.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\images\\slickslide\\sl4.png",
+      "PackagePath": "staticwebassets\\images\\slickslide\\sl4.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\images\\slickslide\\sl5.png",
+      "PackagePath": "staticwebassets\\images\\slickslide\\sl5.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\images\\slickslide\\sl6.png",
+      "PackagePath": "staticwebassets\\images\\slickslide\\sl6.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\images\\slickslide\\sl7.png",
+      "PackagePath": "staticwebassets\\images\\slickslide\\sl7.png"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\images\\undraw_posting_photo.svg",
+      "PackagePath": "staticwebassets\\images\\undraw_posting_photo.svg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\images\\user.jpg",
+      "PackagePath": "staticwebassets\\images\\user.jpg"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\ASP\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ASP.NETCORE_PROJECT.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ASP.NETCORE_PROJECT.props",
+      "PackagePath": "build\\ASP.NETCORE_PROJECT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ASP.NETCORE_PROJECT.props",
+      "PackagePath": "buildMultiTargeting\\ASP.NETCORE_PROJECT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ASP.NETCORE_PROJECT.props",
+      "PackagePath": "buildTransitive\\ASP.NETCORE_PROJECT.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
