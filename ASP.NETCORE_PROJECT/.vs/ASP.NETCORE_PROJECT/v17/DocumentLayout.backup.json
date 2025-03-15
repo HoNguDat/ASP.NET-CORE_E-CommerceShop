@@ -1,0 +1,753 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\product\\detailsproductphone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\product\\detailsproductphone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\product\\detailsproductlaptop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\product\\detailsproductlaptop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\product\\listproductlaptop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\product\\listproductlaptop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\product\\editphoneproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\product\\editphoneproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\product\\editlaptopproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\product\\editlaptopproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\product\\createproductlaptop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\product\\createproductlaptop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\home\\listsamsungproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\home\\listsamsungproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\home\\listphoneproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\home\\listphoneproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\home\\searchproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\home\\searchproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\typelaptop\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\typelaptop\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\brand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\brand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\controllers\\typelaptopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\controllers\\typelaptopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\product\\createproductphone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\product\\createproductphone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\order\\listorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\order\\listorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\areas\\identity\\pages\\account\\manage\\setpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\areas\\identity\\pages\\account\\manage\\setpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\controllers\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\controllers\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\areas\\identity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\areas\\identity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\migrations\\20250215135911_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\migrations\\20250215135911_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1775,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateProductPhone.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\CreateProductPhone.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Product\\CreateProductPhone.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\CreateProductPhone.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Product\\CreateProductPhone.cshtml",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAAAI4AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T02:21:19.875Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditPhoneProducts.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\EditPhoneProducts.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Product\\EditPhoneProducts.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\EditPhoneProducts.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Product\\EditPhoneProducts.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T17:57:55.862Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAKMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T17:54:29.867Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SearchProducts.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Home\\SearchProducts.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Home\\SearchProducts.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Home\\SearchProducts.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Home\\SearchProducts.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwBQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T16:25:58.593Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ListPhoneProducts.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Home\\ListPhoneProducts.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Home\\ListPhoneProducts.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Home\\ListPhoneProducts.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Home\\ListPhoneProducts.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADEAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T19:04:17.983Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ListSamsungProducts.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Home\\ListSamsungProducts.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Home\\ListSamsungProducts.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Home\\ListSamsungProducts.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Home\\ListSamsungProducts.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACcAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T19:05:56.59Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAwwOgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:56:34.286Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetailsProductPhone.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\DetailsProductPhone.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Product\\DetailsProductPhone.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\DetailsProductPhone.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Product\\DetailsProductPhone.cshtml",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAAALMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T19:26:56.938Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T19:45:05.523Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditLaptopProducts.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\EditLaptopProducts.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Product\\EditLaptopProducts.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\EditLaptopProducts.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Product\\EditLaptopProducts.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAIwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T17:51:32.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateProductLaptop.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\CreateProductLaptop.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Product\\CreateProductLaptop.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\CreateProductLaptop.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Product\\CreateProductLaptop.cshtml",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAIEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T17:50:58.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ListProductLaptop.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\ListProductLaptop.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Product\\ListProductLaptop.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\ListProductLaptop.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Product\\ListProductLaptop.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T16:51:39.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Brand\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Brand\\Create.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Brand\\Create.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Brand\\Create.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T17:59:10.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAcwEsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T17:33:56.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAIwKwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T13:58:02.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T17:45:29.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\TypeLaptop\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\TypeLaptop\\Create.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\TypeLaptop\\Create.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\TypeLaptop\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADEAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T17:59:47.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Brand\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Brand\\Index.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Brand\\Index.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Brand\\Index.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T17:59:04.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TypeLaptopController.cs",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\TypeLaptopController.cs",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Controllers\\TypeLaptopController.cs",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\TypeLaptopController.cs",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Controllers\\TypeLaptopController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T17:58:54.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Controllers\\BrandController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T17:58:45.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T17:53:47.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T17:41:27.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ListOrder.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Order\\ListOrder.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Order\\ListOrder.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Order\\ListOrder.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Order\\ListOrder.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T17:42:03.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T16:05:24.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T02:59:31.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Program.cs",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Program.cs",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Program.cs",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Program.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAmwFsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T13:49:57.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RegisterConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T16:09:52.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Controllers\\CommentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T15:47:58.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Models\\Comment.cs",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Models\\Comment.cs",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T15:47:23.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAtwF0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T03:03:32.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SetPassword.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T03:01:22.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Email.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T03:01:11.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T03:01:32.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAD4v5EAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T03:01:50.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T02:59:54.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T02:58:16.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\Admin.cs",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Controllers\\Admin.cs",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\Admin.cs",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Controllers\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T02:58:11.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20250215135911_init.cs",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Migrations\\20250215135911_init.cs",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Migrations\\20250215135911_init.cs",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Migrations\\20250215135911_init.cs",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Migrations\\20250215135911_init.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T13:59:11.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Models\\Brand.cs",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Models\\Brand.cs",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Models\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T02:24:17.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Models\\Category.cs",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Models\\Category.cs",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T02:24:09.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T13:58:35.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\appsettings.json",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\appsettings.json",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\appsettings.json",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-15T13:50:01.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-02-15T13:49:53.23Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 578,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetailsProductLaptop.cshtml",
+              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\DetailsProductLaptop.cshtml",
+              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Product\\DetailsProductLaptop.cshtml",
+              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\DetailsProductLaptop.cshtml",
+              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Product\\DetailsProductLaptop.cshtml",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAK8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T19:20:23.831Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

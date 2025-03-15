@@ -4,12 +4,12 @@
 @{
     ViewData["Title"] = "ListProductsByCategory";
     Layout = "~/Views/Shared/_LayoutUser.cshtml";
-    
+
 }
 
 <div class="container-fluid mb-3">
-    <partial name="_SlickSlidePartial" />         
-    
+    <partial name="_SlickSlidePartial" />
+
     <div class="container-fluid">
         <div class="row px-xl-5">
             <div class="col-12">
@@ -19,46 +19,19 @@
                 </nav>
             </div>
         </div>
-        <h2 class=" osition-relative  mx-xl-5 mb-4">@ViewBag.CateName (@ViewBag.ProductCount sản phẩm) </h2>      
+        <h2 class=" osition-relative  mx-xl-5 mb-4">@ViewBag.CateName (@ViewBag.ProductCount sản phẩm) </h2>
         <div class="row px-xl-5">
-            <partial name="_FilterPartial" />
-            <!-- Shop Product Start -->
+            @* <!-- Shop Product Start --> *@
             <div class="col-lg-9 col-md-8">
                 <div class="row pb-3" id="filtered-products">
-                    <div class="col-12 pb-1">
-                        <div class="d-flex align-items-center justify-content-between mb-4">
-                            <div>
-                                <button class="btn btn-sm btn-light"><i class="fa fa-th-large"></i></button>
-                                <button class="btn btn-sm btn-light ml-2"><i class="fa fa-bars"></i></button>
-                            </div>
-                            <div class="ml-2">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Sắp xếp theo</button>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="sortPrice dropdown-item" href="@Url.Action("ListProductsByCategory","Home",new {id=ViewBag.CateId, linkContent="Giá cao"})">Giá cao</a>
-                                        <a class="sortPrice dropdown-item" href="@Url.Action("ListProductsByCategory","Home",new {id=ViewBag.CateId,linkContent="Giá thấp"})">Giá thấp</a>
-                                        <a class="dropdown-item" href="#">Bán chạy nhất</a>
-                                        <a class="dropdown-item" href="#">Ưu đãi online</a>
-                                    </div>
-                                </div>
-                                <div class="btn-group ml-2">
-                                    <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Showing</button>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="#">10</a>
-                                        <a class="dropdown-item" href="#">20</a>
-                                        <a class="dropdown-item" href="#">30</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>                    
-                    @foreach(var item in Model)
+                    @foreach (var item in Model)
                     {
                         <div class="col-lg-4 col-md-6 col-sm-6 pb-1 p-30" style="border:1px solid #f1f1f1">
                             <div class="product-item bg-light mb-4">
                                 <div class="product-img position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="~/Admin/assets/images/product/@item.Image" alt="" style="height:350px;object-fit:contain">
-                                    <div class="product-action">                                        
+                                    <img class="img-fluid w-100" src="~/Admin/assets/images/product/@item.Image" style="height:350px;object-fit:contain;padding:20px">
+                                    <div class="product-action">
+
                                         <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                                         <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
                                         <a class="btn btn-outline-dark btn-square" asp-action="Details" asp-controller="Home" asp-route-id="@item.Id"><i class="fa fa-search"></i></a>
@@ -67,7 +40,7 @@
                                 <div class="text-center py-4">
                                     <a class="h6 text-decoration-none text-truncate" asp-action="Details" asp-controller="Home" asp-route-id="@item.Id">@item.Name</a>
                                     <div class="d-flex align-items-center justify-content-center mt-2">
-                                        <h5>@string.Format("{0:#,0}", item.Price) VNĐ</h5><h6 class="text-muted ml-2"><del>@string.Format("{0:#,0}", item.Price) VNĐ</del></h6>
+                                        <h5>@string.Format("{0:#,0}", item.Price) VNĐ</h5><h6 class="text-muted ml-2"><del>@string.Format("{0:#,0}", item.Price)</del></h6>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-center mb-1">
                                         <small class="fa fa-star text-primary mr-1"></small>
@@ -75,21 +48,20 @@
                                         <small class="fa fa-star text-primary mr-1"></small>
                                         <small class="fa fa-star text-primary mr-1"></small>
                                         <small class="fa fa-star text-primary mr-1"></small>
-                                        <small>(99)</small>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-center mb-1">
                                         <button type="button" class="ajax-add-to-cart btn btn-outline-dark btn-square" data-id="@item.Id" href=""><i class="fa fa-shopping-cart"></i></button>
-                                    </div
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    }                           
-                    
-                </div>           
+                    }
+                </div>
+            </div>
         </div>
     </div>
 </div>
-@section Scripts{
+@section Scripts {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
@@ -125,7 +97,7 @@
                 });
             });
         });
-    </script>    
+    </script>
     <script>
         document.getElementById("btnFilter").addEventListener("click", function () {
             var priceRange = getSelectedCheckboxes();
@@ -136,7 +108,7 @@
             fetch("/Home/GetFilteredProducts", {
                 method : "POST",
                 headers:{"Content-Type":"application/json"},
-            
+
             body: JSON.stringify(data)}).then(function(response){
                 if(response.ok){
                     return response.text();
@@ -146,8 +118,8 @@
             }).then(function(results){
                 $("#filtered-products").html(results);
             });
-          
-            
+
+
         })
         function getSelectedCheckboxes(){
             var checkboxes = $('#price-filter' + ' input[type="checkbox"]:checked');
@@ -155,7 +127,7 @@
             checkboxes.each(function(){
                 values.push($(this).attr('val'))
             })
-            return values;
+                    return values;
         }
     </script>
 }

@@ -122,16 +122,16 @@
                         </div>
                         <div class="form-group">
                             <label asp-for="CategoryId" class="control-label">Category</label>
-                            <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.product_cateid"></select>
+                            <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
                         </div>
                         <div class="form-group">
                             <label asp-for="BrandId" class="control-label">Brand</label>
-                            <select asp-for="BrandId" class="form-control" asp-items="ViewBag.product_brandid"></select>
+                            <select asp-for="BrandId" class="form-control" asp-items="ViewBag.BrandId"></select>
                         </div>
                         <div class="form-group">
                             <label asp-for="TypeId" class="control-label">Type laptop</label>
-                            <select asp-for="TypeId" class="form-control" asp-items="ViewBag.product_typeid"></select>
-                        </div
+                            <select asp-for="TypeId" class="form-control" asp-items="ViewBag.TypeId"></select>
+                        </div>
                         <div class="position-relative row form-group mb-1">
                             <div class="col-md-9 col-xl-8 offset-md-5">
                                 <a asp-action="ListProductLaptop" asp-controller="Product" class="border-0 btn btn-outline-danger mr-1">

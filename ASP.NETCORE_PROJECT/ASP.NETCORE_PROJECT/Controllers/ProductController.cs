@@ -43,8 +43,8 @@ namespace ASP.NETCORE_PROJECT.Controllers
 
         public IActionResult CreateProductPhone()
         {
-            ViewData["BrandId"] = new SelectList(_context.Brand, "Id", "Name");
-            ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name");
+            ViewBag.BrandId = new SelectList(_context.Brand, "Id", "Name");
+            ViewBag.CategoryId = new SelectList(_context.Category, "Id", "Name");
             return View();
         }
 
@@ -238,7 +238,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
             var product = await _context.Product
                 .Include(p => p.Brand)
                 .Include(p => p.Category)
-                .Include(p => p.TypeId)
+                .Include(p => p.TypeLaptop)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (product == null)
             {

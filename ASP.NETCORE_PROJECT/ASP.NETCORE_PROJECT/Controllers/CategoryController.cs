@@ -62,6 +62,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
             category.Image = uniqueFileName;
             _context.Add(category);
             await _context.SaveChangesAsync();
+            TempData["SuccessMessage"] = "Create category successful !";
             return RedirectToAction(nameof(Index));
         }
 
@@ -129,6 +130,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
                     }
                     _context.Update(data);
                     await _context.SaveChangesAsync();
+                    TempData["SuccessMessage"] = "Edit category successful !";
                     return RedirectToAction(nameof(Index));
                 }
                 catch (DbUpdateConcurrencyException)
@@ -167,10 +169,10 @@ namespace ASP.NETCORE_PROJECT.Controllers
                 }
                 _context.Category.Remove(category);
                 await _context.SaveChangesAsync();
+                TempData["SuccessMessage"] = "Delete category successful !";
             }
             return RedirectToAction(nameof(Index));
         }
-
         private bool CategoryExists(Guid id)
         {
             return (_context.Category?.Any(e => e.Id == id)).GetValueOrDefault();

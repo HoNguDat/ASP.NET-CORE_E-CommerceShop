@@ -30,6 +30,15 @@
             </div>
         </div>
     </div>
+        @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
 
     <div class="row">
         <div class="col-md-12">
@@ -62,8 +71,8 @@
                     <table class="align-middle mb-0 table table-bordered table-striped table-hover" style="text-align:center">
                         <thead>
                             <tr>
-                                <th class="text-center">Tên nhóm</th>
-                                <th>Ảnh</th>
+                                <th class="text-center">Category name</th>
+                                <th>Image</th>
                                 <th class="text-center">Actions</th>
                             </tr>
                         </thead>

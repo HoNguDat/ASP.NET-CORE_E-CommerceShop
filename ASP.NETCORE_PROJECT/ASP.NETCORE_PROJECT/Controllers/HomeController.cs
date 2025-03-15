@@ -24,7 +24,7 @@ namespace ASP.NETCORE_PROJECT.Controllers
         {
             List<Category> categories = await _context.Category.ToListAsync();
             List<Product> productsPhone = await _context.Product.Where(x=>x.Category.Name=="Điện thoại").OrderByDescending(x=>x.Price).Take(4).ToListAsync();            
-            List<Product> productsLaptop = await _context.Product.Where(x => x.Category.Name == "Laptop" && x.TypeLaptop.Name=="Gaming").Take(4).ToListAsync();
+            List<Product> productsLaptop = await _context.Product.Where(x => x.Category.Name == "Laptop").Take(4).ToListAsync();
             List<Product> productsTablet = await _context.Product.Where(x => x.Category.Name == "Máy tính bảng").ToListAsync();
             List<Product> productsSmartWatch = await _context.Product.Where(x => x.Category.Name == "Đồng hồ thông minh").ToListAsync();            
             List<Product> listSamsung = await _context.Product.Where(x => x.Brand.Name == "Samsung").Take(4).ToListAsync();
