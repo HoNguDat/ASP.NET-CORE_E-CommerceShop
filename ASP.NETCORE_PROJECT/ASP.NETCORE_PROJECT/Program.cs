@@ -49,11 +49,11 @@ using (var scope = app.Services.CreateScope())
 using (var scope = app.Services.CreateScope())
 {
     var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
-    string email = "hongudat@gmail.com";
-    string pass = "Ngudat4102.";
-    string fullname = "Hồ Ngũ Đạt";
+    string email = "admin@gmail.com";
+    string pass = "Admin123.";
+    string fullname = "Admin";
     string address = "Quận 9";
-    string phone = "0825875052";
+    string phone = "0123456789";
     if (await userManager.FindByEmailAsync(email) == null)
     {
         var user = new ApplicationUser();
@@ -66,31 +66,6 @@ using (var scope = app.Services.CreateScope())
         if (result.Succeeded)
         {
             await userManager.AddToRoleAsync(user, "Admin");
-        }
-
-
-    }
-}
-using (var scope = app.Services.CreateScope())
-{
-    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
-    string email = "honguduc@gmail.com";
-    string pass = "Nguduc8.";
-    string fullname = "Hồ Ngũ Đức";
-    string address = "Quận 9";
-    string phone = "0918130560";
-    if (await userManager.FindByEmailAsync(email) == null)
-    {
-        var user = new ApplicationUser();
-        user.UserName = email;
-        user.Email = email;
-        user.FullName = fullname;
-        user.Address = address;
-        user.PhoneNumber = phone;
-        var result = await userManager.CreateAsync(user, pass);
-        if (result.Succeeded)
-        {
-            await userManager.AddToRoleAsync(user, "Manager");
         }
 
 

@@ -15,10 +15,6 @@
       "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\product\\detailsproductphone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\views\\product\\detailsproductlaptop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\views\\product\\detailsproductlaptop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|c:\\work\\.net\\asp.net-core_e-commerceshop\\asp.netcore_project\\asp.netcore_project\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD175438-FA9C-4B11-8E04-350CD2CCBD18}|ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT.csproj|solutionrelative:asp.netcore_project\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -190,7 +186,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "CreateProductPhone.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\CreateProductPhone.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Product\\CreateProductPhone.cshtml",
@@ -203,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "EditPhoneProducts.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\EditPhoneProducts.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Product\\EditPhoneProducts.cshtml",
@@ -212,8 +208,7 @@
               "ViewState": "AgIAAH4AAAAAAAAAAAAAAJYAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-10T17:57:55.862Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -226,12 +221,11 @@
               "ViewState": "AgIAAJMAAAAAAAAAAAAAAKMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-10T17:54:29.867Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "SearchProducts.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Home\\SearchProducts.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Home\\SearchProducts.cshtml",
@@ -240,12 +234,11 @@
               "ViewState": "AgIAAA4AAAAAAAAAAAAUwBQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-11T16:25:58.593Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "ListPhoneProducts.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Home\\ListPhoneProducts.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Home\\ListPhoneProducts.cshtml",
@@ -254,12 +247,11 @@
               "ViewState": "AgIAACEAAAAAAAAAAAAAADEAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-15T19:04:17.983Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "ListSamsungProducts.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Home\\ListSamsungProducts.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Home\\ListSamsungProducts.cshtml",
@@ -268,12 +260,11 @@
               "ViewState": "AgIAABoAAAAAAAAAAAAAACcAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-15T19:05:56.59Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Controllers\\ProductController.cs",
@@ -282,8 +273,7 @@
               "ViewState": "AgIAAN8AAAAAAAAAAAAwwOgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T17:56:34.286Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -296,8 +286,7 @@
               "ViewState": "AgIAAKkAAAAAAAAAAAAAALMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-15T19:26:56.938Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -307,7 +296,7 @@
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ASP.NETCORE_PROJECT\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCAAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T19:45:05.523Z",
               "IsPinned": true,
@@ -315,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "EditLaptopProducts.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\EditLaptopProducts.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Product\\EditLaptopProducts.cshtml",
@@ -323,12 +312,11 @@
               "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Product\\EditLaptopProducts.cshtml",
               "ViewState": "AgIAAHsAAAAAAAAAAAAAAIwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T17:51:32.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T17:51:32.846Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "CreateProductLaptop.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\CreateProductLaptop.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Product\\CreateProductLaptop.cshtml",
@@ -336,12 +324,11 @@
               "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Product\\CreateProductLaptop.cshtml",
               "ViewState": "AgIAAHEAAAAAAAAAAAAAAIEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T17:50:58.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T17:50:58.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ListProductLaptop.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\ListProductLaptop.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Product\\ListProductLaptop.cshtml",
@@ -349,12 +336,11 @@
               "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Product\\ListProductLaptop.cshtml",
               "ViewState": "AgIAAFoAAAAAAAAAAAAAAGgAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T16:51:39.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T16:51:39.81Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Brand\\Create.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Brand\\Create.cshtml",
@@ -366,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Category\\Index.cshtml",
@@ -378,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Controllers\\CategoryController.cs",
@@ -386,12 +372,11 @@
               "RelativeToolTip": "ASP.NETCORE_PROJECT\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAJoAAAAAAAAAAAAIwKwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T13:58:02.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T13:58:02.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\User\\Index.cshtml",
@@ -399,12 +384,11 @@
               "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\User\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T17:45:29.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T17:45:29.472Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\TypeLaptop\\Create.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\TypeLaptop\\Create.cshtml",
@@ -416,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Brand\\Index.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Brand\\Index.cshtml",
@@ -428,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "TypeLaptopController.cs",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\TypeLaptopController.cs",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Controllers\\TypeLaptopController.cs",
@@ -440,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "BrandController.cs",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Controllers\\BrandController.cs",
@@ -452,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Category\\Create.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Category\\Create.cshtml",
@@ -464,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Order\\Index.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Order\\Index.cshtml",
@@ -476,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "ListOrder.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Order\\ListOrder.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Order\\ListOrder.cshtml",
@@ -488,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -500,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -512,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Program.cs",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Program.cs",
@@ -524,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "RegisterConfirmation.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
@@ -536,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "CommentController.cs",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\CommentController.cs",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Controllers\\CommentController.cs",
@@ -548,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Models\\Comment.cs",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Models\\Comment.cs",
@@ -560,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -572,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "SetPassword.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
@@ -584,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "Email.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
@@ -596,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
@@ -608,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -620,7 +604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
@@ -632,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Controllers\\UserController.cs",
@@ -644,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Controllers\\Admin.cs",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Controllers\\Admin.cs",
@@ -656,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "20250215135911_init.cs",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Migrations\\20250215135911_init.cs",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Migrations\\20250215135911_init.cs",
@@ -668,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "Brand.cs",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Models\\Brand.cs",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Models\\Brand.cs",
@@ -680,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Models\\Category.cs",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Models\\Category.cs",
@@ -692,7 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
@@ -704,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\appsettings.json",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\appsettings.json",
@@ -716,7 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\ScaffoldingReadMe.txt",
@@ -725,25 +709,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-02-15T13:49:53.23Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 578,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DetailsProductLaptop.cshtml",
-              "DocumentMoniker": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\DetailsProductLaptop.cshtml",
-              "RelativeDocumentMoniker": "ASP.NETCORE_PROJECT\\Views\\Product\\DetailsProductLaptop.cshtml",
-              "ToolTip": "C:\\Work\\.Net\\ASP.NET-CORE_E-CommerceShop\\ASP.NETCORE_PROJECT\\ASP.NETCORE_PROJECT\\Views\\Product\\DetailsProductLaptop.cshtml",
-              "RelativeToolTip": "ASP.NETCORE_PROJECT\\Views\\Product\\DetailsProductLaptop.cshtml",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAAAK8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-15T19:20:23.831Z",
-              "EditorCaption": ""
             }
           ]
         }
